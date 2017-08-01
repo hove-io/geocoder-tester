@@ -1,0 +1,4 @@
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,expected_type
+3 avenue de metz,4.34964,48.96636,1,3 Avenue de Metz,,,Châlons-en-Champagne,,house
+3 avenue de metz,5.35669,49.17003,1,3 Avenue de Metz,,,Verdun,,house
+3 avenue de metz,2.48617,48.90530,1,3 Avenue de Metz,,,Bondy,,house
