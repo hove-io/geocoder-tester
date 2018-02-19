@@ -1,5 +1,4 @@
 query;limit;expected_coordinate;wikidata_item
-Goroka Airport;4;-6.081689834590001,145.391998291,500;
 Museo Nazionale di Capodimonte;4;40.867,14.250528,500;http://www.wikidata.org/entity/Q290549
 National Museum of Ancient Art;4;38.704167,-9.161667,500;http://www.wikidata.org/entity/Q212459
 Château de Compiègne;4;49.41916667,2.83111111,500;http://www.wikidata.org/entity/Q516697

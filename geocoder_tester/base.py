@@ -18,6 +18,8 @@ CONFIG = {
     'FAILED': [],
 }
 
+http = requests.Session()
+
 
 class HttpSearchException(Exception):
 
@@ -47,10 +49,12 @@ class SearchException(Exception):
             "# Search was: {}".format(self.query),
         ]
         params = '# Params was: '
-        params += " - ".join("{}: {}".format(k, v) for k, v in self.params.items())
+        params += " - ".join("{}: {}".format(k, v)
+                             for k, v in self.params.items())
         lines.append(params)
         expected = '# Expected was: '
-        expected += " | ".join("{}: {}".format(k, v) for k, v in self.expected.items())
+        expected += " | ".join("{}: {}".format(k, v)
+                               for k, v in self.expected.items())
         lines.append(expected)
         if self.message:
             lines.append('# Message: {}'.format(self.message))
@@ -62,20 +66,25 @@ class SearchException(Exception):
         results = [self.flat_result(f) for f in self.results['features']]
         lines.extend(dicts_to_table(results, keys=keys))
         lines.append('')
-        if CONFIG['GEOJSON'] and 'coordinate' in self.expected:
-            lines.append('# Geojson:')
-            lines.append(self.to_geojson())
-            lines.append('')
+        if CONFIG['GEOJSON']:
+            coordinates = None
+            if 'coordinate' in self.expected:
+                coordinates = self.expected['coordinate'].split(',')[:2]
+                coordinates.reverse()
+                properties = self.expected.copy()
+                properties.update({'expected': True})
+            elif 'lat' in self.params and 'lon' in self.params:
+                coordinates = [self.params['lon'], self.params['lat']]
+                properties = {'center': True}
+            if coordinates:
+                coordinates = list(map(float, coordinates))
+                geojson = self.to_geojson(coordinates, **properties)
+                lines.append('# Geojson:')
+                lines.append(geojson)
+                lines.append('')
         return "\n".join(lines)
 
-    def to_geojson(self):
-        if not 'coordinate' in self.expected:
-            return ''
-        coordinates = self.expected['coordinate'].split(',')[:2]
-        coordinates.reverse()
-        coordinates = list(map(float, coordinates))
-        properties = self.expected.copy()
-        properties.update({'expected': True})
+    def to_geojson(self, coordinates, **properties):
         self.results['features'].append({
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": coordinates},
@@ -105,7 +114,7 @@ class SearchException(Exception):
 
 
 def search(**params):
-    r = requests.get(CONFIG['API_URL'], params=params)
+    r = http.get(CONFIG['API_URL'], params=params)
     if not r.status_code == 200:
         raise HttpSearchException(error="Non 200 response")
     return r.json()
@@ -136,8 +145,9 @@ def assert_search(query, expected, limit=1,
     def assert_expected(expected):
         nb_found = 0
         for r in results['features']:
-            found = True
+            passed = True
             properties = None
+            failed = r['properties']['failed'] = []
             if 'geocoding' in r['properties']:
                 properties = r['properties']['geocoding']
             else:
@@ -156,14 +166,16 @@ def assert_search(query, expected, limit=1,
                         )
                         if int(deviation.meters) <= int(max_deviation):
                             continue  # Continue to other properties
-                    found = False
-
-            if found:
+                        failed.append('distance')
+                    passed = False
+                    failed.append(key)
+            if passed:
                 nb_found += 1
                 if max_matches is None:
                     break
 
         if nb_found == 0:
+
             raise SearchException(
                 params=params,
                 expected=expected,
@@ -186,36 +198,36 @@ def assert_search(query, expected, limit=1,
         assert_expected(s)
 
 
-def dicts_to_table(dicts, keys=None):
+def dicts_to_table(dicts, keys):
     if not dicts:
         return []
-    if keys is None:
-        keys = dicts[0].keys()
-    cols = []
-    for i, key in enumerate(keys):
-        cols.append(len(key))
+    # Compute max length for each column.
+    lengths = {}
+    for key in keys:
+        lengths[key] = len(key) + 2  # Surrounding spaces.
     for d in dicts:
-        for i, key in enumerate(keys):
-            l = len(str(d.get(key, '')))
-            if l > cols[i]:
-                cols[i] = l
+        for key in keys:
+            i = len(str(d.get(key, '')))
+            if i > lengths[key]:
+                lengths[key] = i + 2  # Surrounding spaces.
     out = []
-
-    def fill(l, to, char=" "):
-        l = str(l)
-        return "{}{}".format(
-            l,
-            char * (to - len(l) if len(l) < to else 0)
-        )
-
-    def create_row(values, char=" "):
-        row = []
-        for i, v in enumerate(values):
-            row.append(fill(v, cols[i], char))
-        return " | ".join(row)
-
-    out.append(create_row(keys))
-    out.append(create_row(['' for k in keys], char="-"))
+    cell = '{{{key}:^{length}}}'
+    tpl = '|'.join(cell.format(key=key, length=lengths[key]) for key in keys)
+    # Headers.
+    out.append(tpl.format(**dict(zip(keys, keys))))
+    # Separators line.
+    out.append(tpl.format(**dict(zip(keys, ['—'*lengths[k] for k in keys]))))
     for d in dicts:
-        out.append(create_row([d.get(k, '—') for k in keys]))
+        row = {}
+        l = lengths.copy()
+        for key in keys:
+            value = d.get(key, '—')
+            if key in d['failed']:
+                l[key] += 10  # Add ANSI chars so python len will turn out.
+                value = "\033[1;4m{}\033[0m".format(value)
+            row[key] = value
+        # Recompute tpl with lengths adapted to failed rows (and thus ansi
+        # extra chars).
+        tpl = '|'.join(cell.format(key=key, length=l[key]) for key in keys)
+        out.append(tpl.format(**row))
     return out
