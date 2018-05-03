@@ -149,10 +149,9 @@ def assert_search(query, expected, limit=1,
             properties = None
             if 'geocoding' in r['properties']:
                 properties = r['properties']['geocoding']
-                failed = r['properties']['geocoding']['failed'] = []
             else:
                 properties = r['properties']
-                failed = r['properties']['failed'] = []
+            failed = properties['failed'] = []
             for key, value in expected.items():
                 value = str(value)
                 if not compare_values(str(properties.get(key)), value):
@@ -222,9 +221,7 @@ def dicts_to_table(dicts, keys):
         row = {}
         l = lengths.copy()
         for key in keys:
-            value = d.get(key, '—')
-            if value is None:
-                value = ''
+            value = d.get(key) or '_'
             if key in d['failed']:
                 l[key] += 10  # Add ANSI chars so python len will turn out.
                 value = "\033[1;4m{}\033[0m".format(value)
