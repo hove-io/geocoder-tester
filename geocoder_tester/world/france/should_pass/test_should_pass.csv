@@ -1,0 +1,25 @@
+query;lon;lat;limit;lang;expected_name;expected_housenumber;expected_street;expected_city;expected_postcode;expected_coordinate;commentaire
+ajaccio;;;4;fr;Ajaccio;;;;;41.9263991, 8.7376029,5000;admin
+chateauroux;;;4;fr;Châteauroux;;;;36000;;admin
+indre et loire;;;4;fr;Indre-et-Loire;;;;;47.2232046,0.6866702523286876,50000;admin
+28 Rue de la Belle Marie Barbizon;;;4;fr;;;Rue de la Belle Marie;;77630;;adresse exacte
+6 Rue Romy Schneider Chevry-Cossigny;;;4;fr;6 Rue Romy Schneider;;;;77173;;adresse exacte
+25 Promenade des Golfeurs 77600;;;4;fr;;25;Promenade des Golfeurs;Bussy-Saint-Georges;;;adresse exacte avec code postal
+14 Ruelle du Moulin Brûlé 77320;;;4;fr;14 Ruelle du Moulin Brûlé;;;Jouy-sur-Morin;;;adresse exacte avec code postal
+Rue Beaubourg  PARIS;;;4;fr;;;;Paris;;48.8627324,2.3542832,500;rue exacte
+Rue Messidor Vauréal;;;4;fr;Rue Messidor;;;;95490;;rue exacte
+3 Rue de la République Montmorency;;;4;fr;;;Rue de la République;;95160;;rue exacte
+Sentier des Briandais 22100;;;4;fr;;;Sentier des Briandais;;22100;;rue exacte avec code postal
+Rue Frégate la Belle-Poule 29200;;;4;fr;;;Rue Frégate la Belle-Poule;;29200;;rue exacte avec code postal
+Chemin des Amers 29830;;;4;fr;;;Chemin des Amers;;29830;;rue exacte avec code postal
+ECOLE DU LOUVRE PARIS;;;4;fr;École du Louvre;;;Paris;;48.861519,2.3345495,500;poi
+AccorHotels Arena;;;4;fr;;;;Paris;;48.83870845,2.3787666192264645,100;poi
+collège yvonne le tac;;;4;fr;Collège Yvonne Le Tac;;;Paris;;;poi
+6 Rue Ane Rubaud 94230;;;4;fr;;;Rue Ange Rubaud;;94230;;fuzzy
+11 Rue de la Grenuillère Brie-Comte-Robert;;;4;fr;;11;Rue de la Grenouillère;;77170;;fuzzy
+9 Allée des Doits de l'Homme;;;4;fr;;9;Allée des Droits de l'Homme;;78114;;fuzzy
+bd bercy paris;;;4;fr;;;boulevard de Bercy;Paris;;;abbréviations
+la ferté ss jouarre;;;4;fr;La Ferté-sous-Jouarre;;;;77260;;abbréviations
+st marcellin;;;4;fr;Saint-Marcellin;;;;38160;;abbréviations
+12 rue mlle bourgeois;;;4;fr;;12;Rue Mademoiselle Bourgeois;;;;synonymes
+1 place du cc Lomprez;;;4;fr;;1;Place du Centre Commercial Lomprez;;;;synonymes
