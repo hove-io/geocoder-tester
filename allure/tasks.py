@@ -14,7 +14,7 @@ def generate_report(ctx, results_dir):
 
 @task(default=True)
 def run_tests(ctx):
-    dt_now = datetime.utcnow().isoformat()[:19]
+    dt_now = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S')
     results_dir = 'res_{}'.format(dt_now)
 
     ctx.run("""
