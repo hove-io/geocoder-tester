@@ -34,7 +34,7 @@ call_pytest() {
     pytest $DIR --api-url ${API_URL} -k "$SELECTOR" --loose-compare --save-report=$OUTPUT_DIR/$TEST_NAME.txt --tb=short > $LOG_FILE
 
     line_result=$(grep '===' $LOG_FILE | grep seconds)
-    echo "summary for $TEST_NAME " $(line_result) | tee -a $GLOBAL_LOG
+    echo "summary for $TEST_NAME $line_result" | tee -a $GLOBAL_LOG
 
     echo "${line_result}" | grep "failed"
     if [ $? -eq 0 ]; then
@@ -48,13 +48,17 @@ call_pytest() {
 }
 
 call_all() {
-    for COUNTRY in "france" "italy" "germany" ; do
+    for COUNTRY in "france" ; do
 
-        for TEST in "autre" "fautes"; do
+        for TEST in "autre" "fautes" "admins" "poi"; do
             if [ "$TEST" = "fautes" ]; then
                 SELECTOR="fuzzy"
+            elif [ "$TEST" = "admins" ]; then
+                SELECTOR="test_admin"
+            elif [ "$TEST" = "poi" ]; then
+                SELECTOR="test_poi"
             else
-                SELECTOR="not fuzzy"
+                SELECTOR="not fuzzy and not test_poi and not test_admin"
             fi
             echo "running test ${COUNTRY}_$TEST" | tee -a $GLOBAL_LOG
             call_pytest "${COUNTRY}_$TEST" "geocoder_tester/world/$COUNTRY/" "$SELECTOR"
