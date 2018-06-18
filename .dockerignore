@@ -1,0 +1,5 @@
+*
+!geocoder_tester
+!Pipfile*
+!run_qwant.sh
+!conftest.py

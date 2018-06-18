@@ -1,8 +1,8 @@
 #! /bin/bash
 ##################################################################
 # 2 args
-# * name of the test
-# api-url
+# * path of the results
+# * api-url
 #
 # Create a logs and results file in a results_${NAME} directory
 #
@@ -15,15 +15,14 @@ if [ "$#" -ne 2 ]; then
 fi
 
 
-NAME=$1
+OUTPUT_DIR=$1
 API_URL=$2
 
-OUTPUT_DIR="results_${NAME}"
 mkdir -p $OUTPUT_DIR
 GLOBAL_LOG="$OUTPUT_DIR/run.log"
 
 rm -f $GLOBAL_LOG
-echo "testing $NAME on $API_URL" | tee -a $GLOBAL_LOG
+echo "testing on $API_URL, results in $OUTPUT_DIR" | tee -a $GLOBAL_LOG
 
 call_pytest() {
     local TEST_NAME="$1"
