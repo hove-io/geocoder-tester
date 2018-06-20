@@ -1,6 +1,10 @@
 FROM python:3.6-slim
 
-RUN pip install pipenv
+RUN apt-get update \
+    && apt-get install -y bc \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
+    && pip install pipenv
 
 ADD Pipfile* run_qwant.sh conftest.py /
 
