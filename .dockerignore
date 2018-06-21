@@ -1,5 +1,6 @@
-*
-!geocoder_tester
-!Pipfile*
-!run_qwant.sh
-!conftest.py
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.git
