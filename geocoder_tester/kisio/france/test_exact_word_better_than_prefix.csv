@@ -2,4 +2,3 @@ query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_
 paris,,,1,Paris,,,,,city
 paris,,,3,Le Touquet-Paris-Plage,,,,,city
 paris,,,3,Paris-l'Hôpital,,,,,city
-paris,,,4,,,,Paris,,street
