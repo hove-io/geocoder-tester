@@ -30,7 +30,7 @@ call_pytest() {
     local SELECTOR="$3"
     local LOG_FILE="$OUTPUT_DIR/$TEST_NAME.log"
 
-    pytest $DIR --api-url ${API_URL} -k "$SELECTOR" --loose-compare --save-report=$OUTPUT_DIR/$TEST_NAME.txt --tb=short > $LOG_FILE
+    pytest $DIR --api-url ${API_URL} -k "$SELECTOR" --loose-compare --save-report=$OUTPUT_DIR/$TEST_NAME.txt --tb=short --check-duplicates=10 -n 12 > $LOG_FILE
 
     line_result=$(grep '===' $LOG_FILE | grep seconds)
     echo "summary for $TEST_NAME $line_result" | tee -a $GLOBAL_LOG
