@@ -66,7 +66,7 @@ class DuplicatesException(Exception):
     def __init__(self, duplicates, params):
         super().__init__()
         self.duplicates = duplicates
-        self.query = params.pop('q')
+        self.query = params.get('q')
 
     def __str__(self):
         lines = [
@@ -194,7 +194,7 @@ def compare_values(get, expected):
 def assert_search(query, expected, limit=1,
                   comment=None, lang=None, center=None,
                   max_matches=None):
-    query_limit = CONFIG['CHECK_DUPLICATES'] or limit
+    query_limit = max(CONFIG['CHECK_DUPLICATES'] or 0, int(limit))
     params = {"q": query, "limit": query_limit}
     if lang:
         params['lang'] = lang
@@ -256,7 +256,7 @@ def assert_search(query, expected, limit=1,
         assert_expected(s)
 
     if CONFIG['CHECK_DUPLICATES']:
-        check_duplicates(raw_results['features'], params)
+        check_duplicates(raw_results['features'][:CONFIG['CHECK_DUPLICATES']], params)
 
 
 def check_duplicates(features, params):
