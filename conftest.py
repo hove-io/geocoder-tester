@@ -59,6 +59,12 @@ def pytest_addoption(parser):
         dest="compare_report",
         help="Path where to load the report to compare with."
     )
+    parser.addoption(
+        '--check-duplicates',
+        type=int,
+        dest="check_duplicates",
+        help="Activates the check that there is no duplicate in the nth first results"
+    )
 
 
 def pytest_configure(config):
@@ -66,6 +72,7 @@ def pytest_configure(config):
     CONFIG['MAX_RUN'] = config.getoption('--max-run')
     CONFIG['LOOSE_COMPARE'] = config.getoption('--loose-compare')
     CONFIG['GEOJSON'] = config.getoption('--geojson')
+    CONFIG['CHECK_DUPLICATES'] = config.getoption('--check-duplicates')
     if config.getoption('--compare-report'):
         with open(config.getoption('--compare-report')) as f:
             CONFIG['COMPARE_WITH'] = []
