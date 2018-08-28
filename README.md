@@ -58,6 +58,12 @@ You can also check that there are no duplicates in the 10 first results
 
     py.test --check-duplicates=10
 
+Note: in compare mode, only new failures will appear as "FAILED" and their
+traceback will be rendered; already known failures will appear as "xfail" and
+in yellow instead of red. If you want those known to fail tests not to be run at
+all (thus you'll don't know how many of them now pass), you can use the `--skip-xfail`
+command line argument.
+
 
 ## Adding search cases
 

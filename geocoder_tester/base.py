@@ -49,7 +49,6 @@ def get_duplicates_key(feature):
         return (label, obj['type'], addr)
     return (label, obj.get('type'))
 
-
 class HttpSearchException(Exception):
 
     def __init__(self, **kwargs):
@@ -237,7 +236,6 @@ def assert_search(query, expected, limit=1, skip=None,
                     break
 
         if nb_found == 0:
-
             raise SearchException(
                 params=params,
                 expected=expected,
@@ -272,7 +270,6 @@ def check_duplicates(features, params):
     duplicates = {k: dup for k, dup in results.items() if len(dup) != 1}
     if duplicates:
         raise DuplicatesException(duplicates, params)
-
 
 def dicts_to_table(dicts, keys):
     if not dicts:
