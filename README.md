@@ -2,13 +2,13 @@
 
 Run search queries against a geocoder that supports [geocodejson spec](https://github.com/geocoders/geocodejson-spec).
 
-## Intalling
+## Intalling
 
-You should have created a python 3.4 virtualenv environment, then:
+- create a python >= 3.4 [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) environment
+- `git clone https://github.com/geocoders/geocoder-tester && cd geocoder-tester`
+- `pip install -r requirements.txt`
 
-    pip install -r requirements.txt
-
-## Running
+## Running
 
 Simply:
 
@@ -54,8 +54,18 @@ Then compare when running a new version
 
     py.test --compare-report path/to/report.log
 
+You can also check that there are no duplicates in the 10 first results
 
-## Adding search cases
+    py.test --check-duplicates=10
+
+Note: in compare mode, only new failures will appear as "FAILED" and their
+traceback will be rendered; already known failures will appear as "xfail" and
+in yellow instead of red. If you want those known to fail tests not to be run at
+all (thus you'll don't know how many of them now pass), you can use the `--skip-xfail`
+command line argument.
+
+
+## Adding search cases
 
 We support python, CSV and YAML format.
 
@@ -74,12 +84,12 @@ You generally want to use YAML format if you are managing tests by hand in your
 text editor, CSV if you are generating test cases from a script, and python test
 cases if you need more control.
 
-### Python
+### Python
 
 They are normal python tests. Just note that you have two utils in `base.py`:
 `search` and `assert_search` that can do a lot for you.
 
-### CSV
+### CSV
 
 One column is mandatory: `query`, where you store the query you make.
 Then you can add as many `expected_xxx` columns you want, according to what
@@ -90,13 +100,15 @@ of the form `lat,lon,tolerated deviation in meters`, e.g. `51.0,10.3,700`.
 
 Optional columns:
 * `limit`: decide how many results you want to look at for finding your result
-(defaul: 1)
+(default: 1)
 * `lat`, `lon`: if you want to add a center for the search
 * `comment`: if you want to take control of the ouput of the test in the
 command line
 * `lang`: language
 * `skip`: add a `skip` message if you want a test to be always skipped (feature
 not supported yet for example)
+* `max_matches`: maximum number of results that should match expected value.
+Should be used such as `limit` > `max_matches`. (default: no limit)
 
 ### YAML
 
@@ -105,3 +117,20 @@ has the subkeys you want to test against (`name`, `housenumber`…).
 Optional keys: `limit`, `lang`, `lat` and `lon`, `skip`.
 You can add categories to your test by using the key `mark` (which expects a
 list), that you can then run with `-m yourmarker`.
+
+## Generate Allure report
+
+* Install geocoder-tester with pipenv and open a shell in the virtualenv
+
+```bash
+pipenv install
+pipenv shell
+```
+
+* Run some tests via invoke
+
+```bash
+INVOKE_API_URL=http://example.com/autocomplete INVOKE_TESTS_FILES=geocoder_tester/world/france/test_poi.csv invoke -r allure
+```
+
+* Allure report is generated in `allure/allure-report`

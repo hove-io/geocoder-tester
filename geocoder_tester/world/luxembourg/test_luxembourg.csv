@@ -1,0 +1,2 @@
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode
+rue du cure luxembourg,,,4,,,Rue du Curé,Luxembourg,
