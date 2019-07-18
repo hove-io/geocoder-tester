@@ -1,4 +1,4 @@
-﻿query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,skip,comment,expected_type
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,skip,comment,expected_type
 St Philibert,,,,St. Philibert,,,,,,,public_transport:stop_area
 St. Philibert,,,,St. Philibert,,,,,,,public_transport:stop_area
 Saint Philibert,,,,St. Philibert,,,,,connu,HOR-143 synonymes non gérés,public_transport:stop_area
@@ -57,14 +57,14 @@ Marbrerie,,,,Marbrerie,,,,,,,public_transport:stop_area
 Hellemmes,,,,Hellemmes,,,,,,,public_transport:stop_area
 Lezennes,,,,Lezennes,,,,,,,public_transport:stop_area
 Pont de Bois,,,,Pont De Bois,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-"Villeneuve d’ascq Hotel de ville,,,,Villeneuve d'Ascq - Hôtel de Ville,,,Villeneuve-d'Ascq,,connu,""HOR-152 ??? Introuvable ici, trouvable dans Kraken"",public_transport:stop_area"
+Villeneuve d’ascq Hotel de ville,,,,Villeneuve d'Ascq - Hôtel de Ville,,,Villeneuve-d'Ascq,,connu,HOR-152 ??? Introuvable ici. trouvable dans Kraken,public_transport:stop_area
 Triolo,,,,Triolo,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Cité scientifique Pr Gabillard,,,,Cite Scientifique,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Cantons Stade Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Pierre Moroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Stade Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-"4 Cantons,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,""Cet arret existe 3 fois dans les données, avec nom different."",public_transport:stop_area"
+4 Cantons,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,Cet arret existe 3 fois dans les données avec nom different.,public_transport:stop_area
 Gare de Lyon,,,4,gare de Lyon-Vaise,,,,,,,public_transport:stop_area
 Romarin,,,,Romarin,,,,,,,public_transport:stop_area
 Botanique,,,,Botanique,,,,,,,public_transport:stop_area
@@ -73,8 +73,8 @@ Buisson,,,,Buisson,,,,,,,public_transport:stop_area
 Brossolette,,,,Brossolette,,,,,,,public_transport:stop_area
 Brosolette,,,,Brossolette,,,,,,,public_transport:stop_area
 Brossolete,,,,Brossolette,,,,,,,public_transport:stop_area
-"Clemenceau Hippodrome,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,""Une station “Clemenceau”, une “clemenceau Hippodrome”"",public_transport:stop_area"
-"Celemenceau,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,""Une station “Clemenceau”, une “clemenceau Hippodrome”"",public_transport:stop_area"
+Clemenceau Hippodrome,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
+Celemenceau,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
 Croisé Laroche,,,,Croise Laroche,,,,,,,public_transport:stop_area
 Foch,,,,Foch,,,,,,,public_transport:stop_area
 Le Quesne,,,,Le Quesne,,,,,,?,public_transport:stop_area
@@ -101,14 +101,14 @@ Terasse,,,,La Terrasse,,,,,,,public_transport:stop_area
 Le sart,,,,Le Sart,,,Villeneuve-d'Ascq,,connu,HOR-147,public_transport:stop_area
 Sart,,,,Le Sart,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Planche epinoy,,,2,Planche Epinoy,,,,,,,public_transport:stop_area
-"epinoy,,,2,Planche Epinoy,,,,,,""Une station “epinoy”, une autre “Planche Epinoy”"",public_transport:stop_area"
+epinoy,,,2,Planche Epinoy,,,,,,Une station “epinoy” une autre “Planche Epinoy”,public_transport:stop_area
 La marque,,,,La Marque,,,,,,,public_transport:stop_area
 Villa Cavrois,,,,Villa Cavrois,,,,,,,public_transport:stop_area
 Villa Cavrois,,,,Villa Cavrois,,,,,,,public_transport:stop_area
 Bol d’air,,,,Bol D'Air,,,,,,,public_transport:stop_area
 Parc barbieux,,,,Parc Barbieux,,,Roubaix,,,,public_transport:stop_area
 Barbieux,,,,Parc Barbieux,,,Roubaix,,,,public_transport:stop_area
-"Hôpital victor provo,,,2,Hopital Victor Provo,,,Roubaix,,,""L’Hôpital Victor Provo est un poi, Hopital Victor Provo un stop area"",public_transport:stop_area"
+Hôpital victor provo,,,2,Hopital Victor Provo,,,Roubaix,,,L’Hôpital Victor Provo est un poi. Hopital Victor Provo un stop area,public_transport:stop_area
 Hopital victor provo,,,,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
 Victor provo,,,,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
 Jean Moulin,,,,Jean Moulin,,,Roubaix,,connu,HOR-148,public_transport:stop_area
