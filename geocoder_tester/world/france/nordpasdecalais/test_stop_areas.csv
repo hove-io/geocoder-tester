@@ -1,15 +1,15 @@
-﻿query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,skip,comment,expected_type
-St Philibert,,,,St. Philibert,,,,,,,public_transport:stop_area
-St. Philibert,,,,St. Philibert,,,,,,,public_transport:stop_area
-Saint Philibert,,,,St. Philibert,,,,,connu,HOR-143 synonymes non gérés,public_transport:stop_area
-Saint-Philibert,,,,St. Philibert,,,,,connu,HOR-143 synonymes non gérés,public_transport:stop_area
-Saint philibret,,,,St. Philibert,,,,,connu,HOR-143 synonymes non gérés,public_transport:stop_area
-Bourg,,,,Bourg,,,,,,,public_transport:stop_area
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,skip,comment,expected_type
+St Philibert lille,,,2,St. Philibert,,,,,,,public_transport:stop_area
+St. Philibert lille,,,2,St. Philibert,,,,,,,public_transport:stop_area
+Saint Philibert lille,,,2,St. Philibert,,,,,,,public_transport:stop_area
+Saint-Philibert lille,,,2,St. Philibert,,,,,,,public_transport:stop_area
+Saint philibret lille,,,2,St. Philibert,,,,,fuzzy,HOR-143 synonymes non gérés,public_transport:stop_area
+Bourg lille,,,,Bourg,,,,,,,public_transport:stop_area
 Maison des Enfants,,,,Maison Des Enfants,,,,,,,public_transport:stop_area
 Mitterie,,,,Mitterie,,,,,,,public_transport:stop_area
 Lomme Lambersart,,,,Lomme Lambersart,,,,,,,public_transport:stop_area
 Bois Blancs,,,,Bois Blancs,,,,,,,public_transport:stop_area
-Canteleu,,,,Canteleu,,,,,,,public_transport:stop_area
+Canteleu lille,,,,Canteleu,,,,,,,public_transport:stop_area
 Port de Lille,,,,Port De Lille,,,,,,,public_transport:stop_area
 Cormontaigne,,,,Cormontaigne,,,,,,,public_transport:stop_area
 Porte d’Arras,,,,Porte D'Arras,,,,,,,public_transport:stop_area
@@ -17,36 +17,36 @@ Porte de Douai,,,,Porte De Douai,,,,,,,public_transport:stop_area
 Porte de Valenciennes,,,,Porte De Valenciennes,,,,,,,public_transport:stop_area
 Lille Grand Palais,,,,Grand Palais,,,,,,,public_transport:stop_area
 Mairie de Lille,,,,Mairie De Lille,,,,,,,public_transport:stop_area
-Gare Lille Flandres,,,,gare de Lille Flandres,,,,,,,public_transport:stop_area
-Gare Lille Europe,,,,gare de Lille Europe,,,,,,,public_transport:stop_area
-Gare de Lille Europe,,,,gare de Lille Europe,,,,,,,public_transport:stop_area
-Gare de Lille Flandres,,,,gare de Lille Flandres,,,,,,,public_transport:stop_area
+Gare Lille Flandres,,,,gare Lille Flandres,,,,,,,public_transport:stop_area
+Gare Lille Europe,,,,gare Lille Europe,,,,,,,public_transport:stop_area
+Gare de Lille Europe,,,,gare Lille Europe,,,,,,,public_transport:stop_area
+Gare de Lille Flandres,,,,gare Lille Flandres,,,,,,,public_transport:stop_area
 Mons Sarts,,,,Mons Sarts,,,,,,,public_transport:stop_area
 Mairie de Mons,,,,Mairie De Mons,,,,,,,public_transport:stop_area
 Fort de Mons,,,,Fort De Mons,,,,,,,public_transport:stop_area
-Les Prés,,,,Les Pres,,,,,,,public_transport:stop_area
+Les Prés,,,,Les Pres-E. Pisani,,,,,,,public_transport:stop_area
 Jean Jaurès,,,,Jean Jaures,,,,,,,public_transport:stop_area
 Wasquehal Pavé de Lille,,,,Pave De Lille,,,Wasquehal,,,,public_transport:stop_area
-Wasquehal Hotel de Ville,,,,Wasquehal Hotel de Ville,,,Wasquehal,,,,public_transport:stop_area
-Croix Centre,,,,Croix Centre,,,,,,,public_transport:stop_area
-Centre Croix,,,,Centre Croix,,,,,,,public_transport:stop_area
-Epeule Montesquieu,,,,Epeule Montesquieu,,,,,,,public_transport:stop_area
-Roubaix Charles de Gaule,,,,Charles De Gaulle,,,,,,,public_transport:stop_area
-Roubaix Charles de Gaulle,,,,Charles De Gaulle,,,,,,,public_transport:stop_area
+Wasquehal Hotel de Ville,,,,Hotel de Ville,,,Wasquehal,,,,public_transport:stop_area
+Croix Centre,,,,Centre,,,Croix,,,,public_transport:stop_area
+Centre Croix,,,,Centre,,,Croix,,,,public_transport:stop_area
+Epeule Montesquieu,,,,Épeule Montesquieu,,,,,,,public_transport:stop_area
+Roubaix Charles de Gaule,,,,Roubaix Charles de Gaulle,,,,,,,public_transport:stop_area
+Roubaix Charles de Gaulle,,,,Roubaix Charles de Gaulle,,,,,,,public_transport:stop_area
 Roubaix Grand Place,,,,Roubaix Grand Place,,,,,,,public_transport:stop_area
-Gare Jean Lebas,,,,Gare SNCF Jean Lebas,,,,,,,public_transport:stop_area
+Gare Jean Lebas,,,,Gare Jean Lebas,,,,,,,public_transport:stop_area
 Alsace,,,,Alsace,,,,,,,public_transport:stop_area
 Mercure,,,,Mercure,,,,,,,public_transport:stop_area
-Tourcoing sébastopol,,,,Sebastopol,,,Tourcoing,,,,public_transport:stop_area
+Tourcoing sébastopol,,,,Gare De Tourcoing (Tourcoing Sebastopol),,,Tourcoing,,,,public_transport:stop_area
 Tourcoing Centre,,,,Tourcoing Centre,,,,,,,public_transport:stop_area
 Pont de Neuville,,,,Pont De Neuville,,,,,,,public_transport:stop_area
-Bourgogne,,,,Bourgogne,,,,,,,public_transport:stop_area
-CH Dron,,,,C.H. Dron,,,Tourcoing,,,,public_transport:stop_area
-CH. Dron,,,,C.H. Dron,,,Tourcoing,,,,public_transport:stop_area
-C.H.Dron,,,,C.H. Dron,,,Tourcoing,,,,public_transport:stop_area
-Calmette,,,,Calmette,,,,,,,public_transport:stop_area
-CHRB Calmette,,,,Calmette,,,,,,,public_transport:stop_area
-Oscar Lambret,,,,C.H.R Oscar Lambret,,,,,,,public_transport:stop_area
+Bourgogne tourcoing,,,,Bourgogne,,,,,,,public_transport:stop_area
+CH Dron tourcoing,,,,C.H. Dron,,,Tourcoing,,,,public_transport:stop_area
+CH. Dron tourcoing,,,,C.H. Dron,,,Tourcoing,,,,public_transport:stop_area
+C.H.Dron tourcoing,,,,C.H. Dron,,,Tourcoing,,,,public_transport:stop_area
+Calmette lille,,,,CHU-Eurasante (C.H.R B-Calmette),,,,,,,public_transport:stop_area
+CHRB Calmette,,,,CHU-Eurasante (C.H.R B-Calmette),,,,,,,public_transport:stop_area
+Oscar Lambret,,,,C.H.R Oscar Lambret,,,,,poi,ajouter poi: amenity:hospital: Centre Oscar Lambret (Lille) à un test de poi,public_transport:stop_area
 Porte des Postes,,,,Porte Des Postes,,,,,,,public_transport:stop_area
 Gambetta,,,,Gambetta,,,,,,,public_transport:stop_area
 Republique Beaux Arts,,,,Republique Beaux-Arts,,,,,,,public_transport:stop_area
@@ -55,31 +55,31 @@ Caulier,,,,Caulier,,,,,,,public_transport:stop_area
 Fives,,,,Fives,,,,,,,public_transport:stop_area
 Marbrerie,,,,Marbrerie,,,,,,,public_transport:stop_area
 Hellemmes,,,,Hellemmes,,,,,,,public_transport:stop_area
-Lezennes,,,,Lezennes,,,,,,,public_transport:stop_area
-Pont de Bois,,,,Pont De Bois,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-"Villeneuve d’ascq Hotel de ville,,,,Villeneuve d'Ascq - Hôtel de Ville,,,Villeneuve-d'Ascq,,connu,""HOR-152 ??? Introuvable ici, trouvable dans Kraken"",public_transport:stop_area"
+Lezennes,,,2,Lezennes,,,,,,,public_transport:stop_area
+Pont de Bois ascq,,,,Pont De Bois,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
+Villeneuve d’ascq Hotel de ville,,,2,Villeneuve d'Ascq - Hôtel de Ville,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Triolo,,,,Triolo,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-Cité scientifique Pr Gabillard,,,,Cite Scientifique,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-Cantons Stade Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-Pierre Moroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-Stade Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-"4 Cantons,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,,""Cet arret existe 3 fois dans les données, avec nom different."",public_transport:stop_area"
+Cité scientifique Pr Gabillard,,,,Cité Scientifique - Lille,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
+Cantons Stade Pierre Mauroy,,,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
+Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
+Pierre Moroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
+Stade Pierre Mauroy,,,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
+4 Cantons,,,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,Cet arret existe 3 fois dans les données avec nom different.,public_transport:stop_area
 Gare de Lyon,,,4,gare de Lyon-Vaise,,,,,,,public_transport:stop_area
 Romarin,,,,Romarin,,,,,,,public_transport:stop_area
 Botanique,,,,Botanique,,,,,,,public_transport:stop_area
 Saint Maur,,,,Saint Maur,,,La Madeleine,,,,public_transport:stop_area
 Buisson,,,,Buisson,,,,,,,public_transport:stop_area
 Brossolette,,,,Brossolette,,,,,,,public_transport:stop_area
-Brosolette,,,,Brossolette,,,,,,,public_transport:stop_area
+Brosolette,,,2,Brossolette,,,,,,,public_transport:stop_area
 Brossolete,,,,Brossolette,,,,,,,public_transport:stop_area
-"Clemenceau Hippodrome,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,""Une station “Clemenceau”, une “clemenceau Hippodrome”"",public_transport:stop_area"
-"Celemenceau,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,""Une station “Clemenceau”, une “clemenceau Hippodrome”"",public_transport:stop_area"
+Clemenceau Hippodrome,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
+Celemenceau,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
 Croisé Laroche,,,,Croise Laroche,,,,,,,public_transport:stop_area
 Foch,,,,Foch,,,,,,,public_transport:stop_area
-Le Quesne,,,,Le Quesne,,,,,,?,public_transport:stop_area
-lequesne,,,,Le Quesne,,,,,,,public_transport:stop_area
-cerisaie centre d’affaires,,,,Cerisaie,,,,,,,public_transport:stop_area
+Le Quesne,,,2,Le Quesne,,,,,,?,public_transport:stop_area
+lequesne,,,2,Le Quesne,,,,,,,public_transport:stop_area
+cerisaie centre d’affaires,,,2,Cerisaie,,,,,,,public_transport:stop_area
 cerisaie,,,,Cerisaie,,,,,,,public_transport:stop_area
 chateau rouge,,,,Château Rouge,,,,,,,public_transport:stop_area
 cartelot,,,,Cartelot,,,,,,,public_transport:stop_area
@@ -91,7 +91,7 @@ Faidherbe,,,,Faidherbe,,,,,,,public_transport:stop_area
 Ma campagne,,,,Ma Campagne,,,,,,,public_transport:stop_area
 Campagne,,,,Ma Campagne,,,,,,,public_transport:stop_area
 Pont hydraulique,,,,Pont Hydraulique,,,,,,,public_transport:stop_area
-Victoire,,,,Victoire,,,,,,,public_transport:stop_area
+Victoire,,,2,Victoire,,,,,,,public_transport:stop_area
 Acacias,,,,Acacias,,,,,,,public_transport:stop_area
 Pont Whasquehal,,,,Pont De Wasquehal,,,,,,,public_transport:stop_area
 Pont de Whasquehal,,,,Pont De Wasquehal,,,,,,,public_transport:stop_area
@@ -101,16 +101,14 @@ Terasse,,,,La Terrasse,,,,,,,public_transport:stop_area
 Le sart,,,,Le Sart,,,Villeneuve-d'Ascq,,connu,HOR-147,public_transport:stop_area
 Sart,,,,Le Sart,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Planche epinoy,,,2,Planche Epinoy,,,,,,,public_transport:stop_area
-"epinoy,,,2,Planche Epinoy,,,,,,""Une station “epinoy”, une autre “Planche Epinoy”"",public_transport:stop_area"
+epinoy,,,2,Planche Epinoy,,,,,,Une station “epinoy” une autre “Planche Epinoy”,public_transport:stop_area
 La marque,,,,La Marque,,,,,,,public_transport:stop_area
-Villa Cavrois,,,,Villa Cavrois,,,,,,,public_transport:stop_area
 Villa Cavrois,,,,Villa Cavrois,,,,,,,public_transport:stop_area
 Bol d’air,,,,Bol D'Air,,,,,,,public_transport:stop_area
 Parc barbieux,,,,Parc Barbieux,,,Roubaix,,,,public_transport:stop_area
 Barbieux,,,,Parc Barbieux,,,Roubaix,,,,public_transport:stop_area
-"Hôpital victor provo,,,2,Hopital Victor Provo,,,Roubaix,,,""L’Hôpital Victor Provo est un poi, Hopital Victor Provo un stop area"",public_transport:stop_area"
-Hopital victor provo,,,,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
+Hôpital victor provo,,,2,Hopital Victor Provo,,,Roubaix,,,L’Hôpital Victor Provo est un poi. Hopital Victor Provo un stop area,public_transport:stop_area
 Victor provo,,,,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
-Jean Moulin,,,,Jean Moulin,,,Roubaix,,connu,HOR-148,public_transport:stop_area
-Alfred Mongy,,,,Alfred Mongy,,,Roubaix,,,,public_transport:stop_area
-Roubaix Eurotéléport,,,,Euroteleport,,,Roubaix,,connu,HOR-147,public_transport:stop_area
+Jean Moulin,,,,Jean Moulin,,,Roubaix,,,,public_transport:stop_area
+Alfred Mongy,,,2,Alfred Mongy,,,Roubaix,,,,public_transport:stop_area
+Roubaix Eurotéléport,,,,Euroteleport,,,Roubaix,,,,public_transport:stop_area
