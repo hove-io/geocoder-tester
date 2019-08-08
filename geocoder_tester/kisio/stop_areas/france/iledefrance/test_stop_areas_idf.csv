@@ -1,0 +1,370 @@
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,skip,comment,expected_type
+NANTERRE-UNIVERSITE,,,1,"Gare de Nanterre Université",,,,,,,public_transport:stop_area
+NOISY-CHAMPS,,,1,"Gare de Noisy Champs",,,,,,,public_transport:stop_area
+SAINT-MICHEL-NOTRE-DAME,,,1,"Saint-Michel Notre-Dame",,,,,,,public_transport:stop_area
+"NOISY-LE-GRAND-MONT D'EST",,,1,"Gare de Noisy le Grand Mont d'Est",,,,,,,public_transport:stop_area
+BOLIVAR,,,1,Bolivar,,,,,,,public_transport:stop_area
+SAINT-FARGEAU,,,1,Saint-Fargeau,,,,,,,public_transport:stop_area
+BUTTES-CHAUMONT,,,1,"Buttes Chaumont",,,,,,,public_transport:stop_area
+LIEGE,,,1,Liège,,,,,,,public_transport:stop_area
+VARENNE,,,1,Varenne,,,,,,,public_transport:stop_area
+MABILLON,,,1,Mabillon,,,,,,,public_transport:stop_area
+FALGUIERE,,,1,Falguière,,,,,,,public_transport:stop_area
+"PONT MARIE",,,1,"Pont Marie",,,,,,,public_transport:stop_area
+BOTZARIS,,,1,Botzaris,,,,,,,public_transport:stop_area
+"MICHEL BIZOT",,,1,"Michel Bizot",,,,,,,public_transport:stop_area
+"FILLES DU CALVAIRE",,,1,"Filles du Calvaire",,,,,,,public_transport:stop_area
+RASPAIL,,,1,Raspail,,,,,,,public_transport:stop_area
+JASMIN,,,1,Jasmin,,,,,,,public_transport:stop_area
+LOURMEL,,,1,Lourmel,,,,,,,public_transport:stop_area
+SOLFERINO,,,1,Solférino,,,,,,,public_transport:stop_area
+"PORTE D'IVRY",,,1,"Porte d'Ivry",,,,,,,public_transport:stop_area
+SAINT-SULPICE,,,1,Saint-Sulpice,,,,,,,public_transport:stop_area
+BREGUET-SABIN,,,1,"Bréguet / Sabin",,,,,,,public_transport:stop_area
+OURCQ,,,1,Ourcq,,,,,,,public_transport:stop_area
+SENTIER,,,1,Sentier,,,,,,,public_transport:stop_area
+BLANCHE,,,1,Blanche,,,,,,,public_transport:stop_area
+"VICTOR HUGO",,,1,"Victor Hugo",,,,,,,public_transport:stop_area
+SAINT-AUGUSTIN,,,1,Saint-Augustin,,,,,,,public_transport:stop_area
+CENSIER-DAUBENTON,,,1,"Censier / Daubenton",,,,,,,public_transport:stop_area
+"PORTE DE CHAMPERRET",,,1,"Porte de Champerret",,,,,,,public_transport:stop_area
+"PORTE DE SAINT-OUEN",,,1,"Porte de Saint-Ouen",,,,,,,public_transport:stop_area
+"CRETEIL-POINTE DU LAC",,,1,"Créteil Pointe du Lac",,,,,,,public_transport:stop_area
+GAITE,,,1,Gaite,,,,,,,public_transport:stop_area
+COMMERCE,,,1,Commerce,,,,,,,public_transport:stop_area
+BROCHANT,,,1,Brochant,,,,,,,public_transport:stop_area
+CHEVALERET,,,1,Chevaleret,,,,,,,public_transport:stop_area
+PARMENTIER,,,1,Parmentier,,,,,,,public_transport:stop_area
+"PORTE DE CHOISY",,,1,"Porte de Choisy",,,,,,,public_transport:stop_area
+SAINT-PHILIPPE-DU-ROULE,,,1,"Saint-Philippe du Roule",,,,,,,public_transport:stop_area
+"VILLEJUIF-LEO LAGRANGE",,,1,"Villejuif / Léo Lagrange",,,,,,,public_transport:stop_area
+IENA,,,1,Iéna,,,,,,,public_transport:stop_area
+RANELAGH,,,1,Ranelagh,,,,,,,public_transport:stop_area
+TELEGRAPHE,,,1,Télégraphe,,,,,,,public_transport:stop_area
+LAMARCK-CAULAINCOURT,,,1,"Lamarck / Caulaincourt",,,,,,,public_transport:stop_area
+"CROIX DE CHAVAUX",,,1,"Croix de Chavaux",,,,,,,public_transport:stop_area
+"SAINT-DENIS-PORTE DE PARIS",,,1,"Saint-Denis / Porte de Paris",,,,,,,public_transport:stop_area
+PASSY,,,1,Passy,,,,,,,public_transport:stop_area
+GLACIERE,,,1,Glacière,,,,,,,public_transport:stop_area
+"CHATEAU D'EAU",,,1,"Château d'Eau",,,,,,,public_transport:stop_area
+"COLONEL FABIEN",,,1,"Colonel Fabien",,,,,,,public_transport:stop_area
+"PORTE DE LA VILLETTE",,,1,"Porte de la Villette",,,,,,,public_transport:stop_area
+"SAINT-GERMAIN DES PRES",,,1,"Saint-Germain des Prés",,,,,,,public_transport:stop_area
+DENFERT-ROCHEREAU,,,1,"Denfert Rochereau",,,,,,,public_transport:stop_area
+"CHATEAU DE VINCENNES",,,1,"Château de Vincennes",,,,,,,public_transport:stop_area
+ANVERS,,,1,Anvers,,,,,,,public_transport:stop_area
+CONVENTION,,,1,Convention,,,,,,,public_transport:stop_area
+"PORTE DE SAINT-CLOUD",,,1,"Porte de Saint-Cloud",,,,,,,public_transport:stop_area
+PASTEUR,,,1,Pasteur,,,,,,,public_transport:stop_area
+PIGALLE,,,1,Pigalle,,,,,,,public_transport:stop_area
+DAUMESNIL,,,1,Daumesnil,,,,,,,public_transport:stop_area
+CONCORDE,,,1,Concorde,,,,,,,public_transport:stop_area
+"MAIRIE DE MONTREUIL",,,1,"Mairie de Montreuil",,,,,,,public_transport:stop_area
+CHATILLON-MONTROUGE,,,1,"Châtillon Montrouge",,,,,,,public_transport:stop_area
+SAINT-PAUL,,,1,Saint-Paul,,,,,,,public_transport:stop_area
+"PORTE DE VERSAILLES",,,1,"Porte de Versailles",,,,,,,public_transport:stop_area
+BERCY,,,1,Bercy,,,,,,,public_transport:stop_area
+"HOTEL DE VILLE",,,1,"Hôtel de Ville",,,,,,,public_transport:stop_area
+"FRANKLIN D. ROOSEVELT",,,1,"Franklin D. Roosevelt",,,,,,,public_transport:stop_area
+MADELEINE,,,1,Madeleine,,,,,,,public_transport:stop_area
+LOGNES,,,1,"Gare de Lognes",,,,,,,public_transport:stop_area
+NOISIEL,,,1,"Gare de Noisiel",,,,,,,public_transport:stop_area
+MASSY-VERRIERES,,,1,"Gare de Massy Verrières",,,,,,,public_transport:stop_area
+FONTAINE-MICHALON,,,1,"Gare de Fontaine Michalon",,,,,,,public_transport:stop_area
+PALAISEAU-VILLEBON,,,1,"Gare de Palaiseau Villebon",,,,,,,public_transport:stop_area
+BUSSY-SAINT-GEORGES,,,1,"Gare de Bussy Saint-Georges",,,,,,,public_transport:stop_area
+SAINT-MAUR-CRETEIL,,,1,"Gare de Saint-Maur Créteil",,,,,,,public_transport:stop_area
+BELLEVILLE,,,1,Belleville,,,,,,,public_transport:stop_area
+REPUBLIQUE,,,1,République,,,,,,,public_transport:stop_area
+NANTERRE-PREFECTURE,,,1,"Gare de Nanterre Préfecture",,,,,,,public_transport:stop_area
+SUCY-BONNEUIL,,,1,"Gare de Sucy Bonneuil",,,,,,,public_transport:stop_area
+BOURG-LA-REINE,,,1,"Gare de Bourg la Reine",,,,,,,public_transport:stop_area
+NOGENT-SUR-MARNE,,,1,"Gare de Nogent sur Marne",,,,,,,public_transport:stop_area
+SAINT-GERMAIN-EN-LAYE,,,1,"Gare de Saint-Germain en Laye",,,,,,,public_transport:stop_area
+LUXEMBOURG,,,1,Luxembourg,,,,,,,public_transport:stop_area
+RENNES,,,1,Rennes,,,,,,,public_transport:stop_area
+VANEAU,,,1,Vaneau,,,,,,,public_transport:stop_area
+SULLY-MORLAND,,,1,"Sully - Morland",,,,,,,public_transport:stop_area
+"ASSEMBLEE NATIONALE",,,1,"Assemblée Nationale",,,,,,,public_transport:stop_area
+"MAISONS-ALFORT-LES JUILLIOTTES",,,1,"Maisons Alfort les Juilliottes",,,,,,,public_transport:stop_area
+AVRON,,,1,Avron,,,,,,,public_transport:stop_area
+EUROPE,,,1,Europe,,,,,,,public_transport:stop_area
+"FELIX FAURE",,,1,"Félix Faure",,,,,,,public_transport:stop_area
+"MAISON BLANCHE",,,1,"Maison Blanche",,,,,,,public_transport:stop_area
+SAINT-FRANCOIS-XAVIER,,,1,"Saint-Francois Xavier",,,,,,,public_transport:stop_area
+"FRONT POPULAIRE",,,1,"Front Populaire",,,,,,,public_transport:stop_area
+RIQUET,,,1,Riquet,,,,,,,public_transport:stop_area
+SIMPLON,,,1,Simplon,,,,,,,public_transport:stop_area
+ABBESSES,,,1,Abbesses,,,,,,,public_transport:stop_area
+"LE PELETIER",,,1,"Le Peletier",,,,,,,public_transport:stop_area
+SEVRES-LECOURBE,,,1,"Sèvres / Lecourbe",,,,,,,public_transport:stop_area
+"CORENTIN CARIOU",,,1,"Corentin Cariou",,,,,,,public_transport:stop_area
+"JACQUES BONSERGENT",,,1,"Jacques Bonsergent",,,,,,,public_transport:stop_area
+CRETEIL-UNIVERSITE,,,1,"Créteil Université",,,,,,,public_transport:stop_area
+"BOULOGNE-PONT DE SAINT-CLOUD",,,1,"Boulogne / Pont de Saint-Cloud",,,,,,,public_transport:stop_area
+TERNES,,,1,Ternes,,,,,,,public_transport:stop_area
+PERNETY,,,1,Pernéty,,,,,,,public_transport:stop_area
+PYRENEES,,,1,Pyrénées,,,,,,,public_transport:stop_area
+"PLACE MONGE",,,1,"Place Monge",,,,,,,public_transport:stop_area
+SAINT-AMBROISE,,,1,Saint-Ambroise,,,,,,,public_transport:stop_area
+"ALEXANDRE DUMAS",,,1,"Alexandre Dumas",,,,,,,public_transport:stop_area
+BALARD,,,1,Balard,,,,,,,public_transport:stop_area
+"PORTE DE VINCENNES",,,1,"Porte de Vincennes",,,,,,,public_transport:stop_area
+INVALIDES,,,1,Invalides,,,,,,,public_transport:stop_area
+MIROMESNIL,,,1,Miromesnil,,,,,,,public_transport:stop_area
+HAVRE-CAUMARTIN,,,1,"Havre Caumartin",,,,,,,public_transport:stop_area
+REUILLY-DIDEROT,,,1,"Reuilly / Diderot",,,,,,,public_transport:stop_area
+JAURES,,,1,Jaurès,,,,,,,public_transport:stop_area
+"BEL AIR",,,1,"Bel Air",,,,,,,public_transport:stop_area
+BUZENVAL,,,1,Buzenval,,,,,,,public_transport:stop_area
+"RUE DU BAC",,,1,"Rue du Bac",,,,,,,public_transport:stop_area
+VOLONTAIRES,,,1,Volontaires,,,,,,,public_transport:stop_area
+QUATRE-SEPTEMBRE,,,1,"Quatre Septembre",,,,,,,public_transport:stop_area
+"LA TOUR-MAUBOURG",,,1,"La Tour Maubourg",,,,,,,public_transport:stop_area
+MAUBERT-MUTUALITE,,,1,"Maubert - Mutualité",,,,,,,public_transport:stop_area
+ROBESPIERRE,,,1,Robespierre,,,,,,,public_transport:stop_area
+"MAIRIE DE SAINT-OUEN",,,1,"Mairie de Saint-Ouen",,,,,,,public_transport:stop_area
+"BASILIQUE DE SAINT-DENIS",,,1,"Basilique de Saint-Denis",,,,,,,public_transport:stop_area
+"PONT DE LEVALLOIS-BECON",,,1,"Pont de Levallois - Bécon",,,,,,,public_transport:stop_area
+CHARONNE,,,1,Charonne,,,,,,,public_transport:stop_area
+MENILMONTANT,,,1,Ménilmontant,,,,,,,public_transport:stop_area
+ODEON,,,1,Odéon,,,,,,,public_transport:stop_area
+OBERKAMPF,,,1,Oberkampf,,,,,,,public_transport:stop_area
+SEVRES-BABYLONE,,,1,Sèvres-Babylone,,,,,,,public_transport:stop_area
+LOZERE,,,1,"Gare de Lozère",,,,,,,public_transport:stop_area
+CHATOU-CROISSY,,,1,"Gare de Chatou Croissy",,,,,,,public_transport:stop_area
+BURES-SUR-YVETTE,,,1,"Gare de Bures-sur-Yvette",,,,,,,public_transport:stop_area
+COURCELLE-SUR-YVETTE,,,1,"Gare de Courcelle sur Yvette",,,,,,,public_transport:stop_area
+"LA VARENNE-CHENNEVIERES",,,1,"Gare de la Varenne Chennevières",,,,,,,public_transport:stop_area
+"BOBIGNY-PABLO PICASSO",,,1,"Bobigny Pablo Picasso",,,,,,,public_transport:stop_area
+BIR-HAKEIM,,,1,"Bir Hakeim",,,,,,,public_transport:stop_area
+"PORTE MAILLOT",,,1,"Porte Maillot",,,,,,,public_transport:stop_area
+TROCADERO,,,1,Trocadéro,,,,,,,public_transport:stop_area
+"PLACE D'ITALIE",,,1,"Place d'Italie",,,,,,,public_transport:stop_area
+STRASBOURG-SAINT-DENIS,,,1,"Strasbourg Saint-Denis",,,,,,,public_transport:stop_area
+NATION,,,1,Nation,,,,,,,public_transport:stop_area
+"VAL DE FONTENAY",,,1,"Gare de Val de Fontenay",,,,,,,public_transport:stop_area
+SEGUR,,,1,Ségur,,,,,,,public_transport:stop_area
+MONCEAU,,,1,Monceau,,,,,,,public_transport:stop_area
+"CHEMIN VERT",,,1,"Chemin Vert",,,,,,,public_transport:stop_area
+"GARE DU NORD-RER",,,1,"Gare du Nord",,,,,,,public_transport:stop_area
+CHATEAU-LANDON,,,1,"Château Landon",,,,,,,public_transport:stop_area
+"PORTE D'AUTEUIL",,,1,"Porte d'Auteuil",,,,,,,public_transport:stop_area
+"CARDINAL LEMOINE",,,1,"Cardinal Lemoine",,,,,,,public_transport:stop_area
+"QUAI DE LA RAPEE",,,1,"Quai de la Rapée",,,,,,,public_transport:stop_area
+"MAIRIE DES LILAS",,,1,"Mairie des Lilas",,,,,,,public_transport:stop_area
+SAINT-DENIS-UNIVERSITE,,,1,"Saint-Denis Université",,,,,,,public_transport:stop_area
+ALMA-MARCEAU,,,1,"Alma / Marceau",,,,,,,public_transport:stop_area
+"CHATEAU ROUGE",,,1,"Château Rouge",,,,,,,public_transport:stop_area
+"CHARLES MICHELS",,,1,"Charles Michels",,,,,,,public_transport:stop_area
+"PORTE DE MONTREUIL",,,1,"Porte de Montreuil",,,,,,,public_transport:stop_area
+"PERE LACHAISE",,,1,"Père Lachaise",,,,,,,public_transport:stop_area
+"BONNE NOUVELLE",,,1,"Bonne Nouvelle",,,,,,,public_transport:stop_area
+RICHELIEU-DROUOT,,,1,Richelieu-Drouot,,,,,,,public_transport:stop_area
+"MAIRIE D'ISSY",,,1,"Mairie d'Issy",,,,,,,public_transport:stop_area
+DUPLEIX,,,1,Dupleix,,,,,,,public_transport:stop_area
+LAUMIERE,,,1,Laumière,,,,,,,public_transport:stop_area
+JOURDAIN,,,1,Jourdain,,,,,,,public_transport:stop_area
+"PORTE DE CLICHY",,,1,"Porte de Clichy",,,,,,,public_transport:stop_area
+"PORTE DE BAGNOLET",,,1,"Porte de Bagnolet",,,,,,,public_transport:stop_area
+DUROC,,,1,Duroc,,,,,,,public_transport:stop_area
+"PORTE DES LILAS",,,1,"Porte des Lilas",,,,,,,public_transport:stop_area
+"VAL D'EUROPE",,,1,"Gare de Val d'Europe",,,,,,,public_transport:stop_area
+NANTERRE-VILLE,,,1,"Gare de Nanterre Ville",,,,,,,public_transport:stop_area
+GIF-SUR-YVETTE,,,1,"Gare de Gif sur Yvette",,,,,,,public_transport:stop_area
+MARNE-LA-VALLEE-CHESSY,,,1,"Gare de Marne-la-Vallée Chessy",,,,,,,public_transport:stop_area
+"CITE UNIVERSITAIRE",,,1,"Cité Universitaire",,,,,,,public_transport:stop_area
+"LES AGNETTES",,,1,"Les Agnettes",,,,,,,public_transport:stop_area
+VAVIN,,,1,Vavin,,,,,,,public_transport:stop_area
+WAGRAM,,,1,Wagram,,,,,,,public_transport:stop_area
+"LA FOURCHE",,,1,"La Fourche",,,,,,,public_transport:stop_area
+SAINT-MARCEL,,,1,Saint-Marcel,,,,,,,public_transport:stop_area
+SAINT-JACQUES,,,1,Saint-Jacques,,,,,,,public_transport:stop_area
+"ETIENNE MARCEL",,,1,"Etienne Marcel",,,,,,,public_transport:stop_area
+"CLUNY LA SORBONNE",,,1,"Cluny / la Sorbonne",,,,,,,public_transport:stop_area
+NOTRE-DAME-DE-LORETTE,,,1,"Notre-Dame de Lorette",,,,,,,public_transport:stop_area
+NOTRE-DAME-DES-CHAMPS,,,1,"Notre-Dame des Champs",,,,,,,public_transport:stop_area
+"MAIRIE D'IVRY",,,1,"Mairie d'Ivry",,,,,,,public_transport:stop_area
+CADET,,,1,Cadet,,,,,,,public_transport:stop_area
+CAMBRONNE,,,1,Cambronne,,,,,,,public_transport:stop_area
+COURONNES,,,1,Couronnes,,,,,,,public_transport:stop_area
+FUNICULAIRE,,,1,Funiculaire,,,,,,,public_transport:stop_area
+SAINT-PLACIDE,,,1,Saint-Placide,,,,,,,public_transport:stop_area
+"PLACE DES FETES",,,1,"Place des Fêtes",,,,,,,public_transport:stop_area
+"MAIRIE DE MONTROUGE",,,1,"Mairie de Montrouge",,,,,,,public_transport:stop_area
+"VILLEJUIF-LOUIS ARAGON",,,1,"Villejuif-Louis Aragon",,,,,,,public_transport:stop_area
+"PONT DE NEUILLY",,,1,"Pont de Neuilly",,,,,,,public_transport:stop_area
+BARBES-ROCHECHOUART,,,1,"Barbes / Rochechouart",,,,,,,public_transport:stop_area
+OPERA,,,1,Opéra,,,,,,,public_transport:stop_area
+STALINGRAD,,,1,Stalingrad,,,,,,,public_transport:stop_area
+"GARE DE L'EST",,,1,"Gare de l'Est",,,,,,,public_transport:stop_area
+BAGNEUX,,,1,"Gare de Bagneux",,,,,,,public_transport:stop_area
+ROBINSON,,,1,"Gare de Robinson",,,,,,,public_transport:stop_area
+"LA HACQUINIERE",,,1,"Gare de la Hacquinière",,,,,,,public_transport:stop_area
+SAINT-REMY-LES-CHEVREUSE,,,1,"Gare de Saint-Rémy-lès-Chevreuse",,,,,,,public_transport:stop_area
+"ESPLANADE DE LA DEFENSE",,,1,"Esplanade de la Défense",,,,,,,public_transport:stop_area
+CRIMEE,,,1,Crimée,,,,,,,public_transport:stop_area
+OLYMPIADES,,,1,Olympiades,,,,,,,public_transport:stop_area
+"PORTE D'ORLEANS",,,1,"Porte d'Orléans",,,,,,,public_transport:stop_area
+GAMBETTA,,,1,Gambetta,,,,,,,public_transport:stop_area
+"GARE D'AUSTERLITZ",,,1,"Gare d'Austerlitz",,,,,,,public_transport:stop_area
+"MALAKOFF-RUE ETIENNE DOLET",,,1,"Malakoff / Rue Etienne Dolet",,,,,,,public_transport:stop_area
+TUILERIES,,,1,Tuileries,,,,,,,public_transport:stop_area
+ARGENTINE,,,1,Argentine,,,,,,,public_transport:stop_area
+CORVISART,,,1,Corvisart,,,,,,,public_transport:stop_area
+"PORTE DOREE",,,1,"Porte Dorée",,,,,,,public_transport:stop_area
+"PORTE DE LA CHAPELLE",,,1,"Porte de la Chapelle",,,,,,,public_transport:stop_area
+"LOUIS BLANC",,,1,"Louis Blanc",,,,,,,public_transport:stop_area
+MICHEL-ANGE-AUTEUIL,,,1,"Michel Ange - Auteuil",,,,,,,public_transport:stop_area
+CRETEIL-PREFECTURE,,,1,"Créteil Préfecture",,,,,,,public_transport:stop_area
+"FORT D'AUBERVILLIERS",,,1,"Fort d'Aubervilliers",,,,,,,public_transport:stop_area
+"LE KREMLIN-BICETRE",,,1,"Le Kremlin Bicêtre",,,,,,,public_transport:stop_area
+ALESIA,,,1,Alésia,,,,,,,public_transport:stop_area
+RAMBUTEAU,,,1,Rambuteau,,,,,,,public_transport:stop_area
+"GUY MOQUET",,,1,Guy-Môquet,,,,,,,public_transport:stop_area
+LEDRU-ROLLIN,,,1,"Ledru / Rollin",,,,,,,public_transport:stop_area
+PYRAMIDES,,,1,Pyramides,,,,,,,public_transport:stop_area
+MARCADET-POISSONNIERS,,,1,"Marcadet / Poissonniers",,,,,,,public_transport:stop_area
+LAPLACE,,,1,"Gare de Laplace",,,,,,,public_transport:stop_area
+RUEIL-MALMAISON,,,1,"Gare de Rueil Malmaison",,,,,,,public_transport:stop_area
+JOINVILLE-LE-PONT,,,1,"Gare de Joinville le Pont",,,,,,,public_transport:stop_area
+NEUILLY-PLAISANCE,,,1,"Neuilly Plaisance",,,,,,,public_transport:stop_area
+PELLEPORT,,,1,Pelleport,,,,,,,public_transport:stop_area
+DENFERT-ROCHEREAU-RER,,,1,"Denfert Rochereau",,,,,,,public_transport:stop_area
+"CHARLES DE GAULLE-ETOILE-RER",,,1,"Charles de Gaulle Etoile",,,,,,,public_transport:stop_area
+"CHATELET-LES HALLES-RER",,,1,"Châtelet les Halles",,,,,,,public_transport:stop_area
+"PIERRE CURIE",,,1,"Pierre Curie",,,,,,,public_transport:stop_area
+MONTGALLET,,,1,Montgallet,,,,,,,public_transport:stop_area
+MOUTON-DUVERNET,,,1,"Mouton / Duvernet",,,,,,,public_transport:stop_area
+"PHILIPPE AUGUSTE",,,1,"Philippe Auguste",,,,,,,public_transport:stop_area
+PRE-SAINT-GERVAIS,,,1,"Pré Saint-Gervais",,,,,,,public_transport:stop_area
+"TRINITE-D'ESTIENNE D'ORVES",,,1,"Trinité d'Estienne d'Orves",,,,,,,public_transport:stop_area
+SAINT-SEBASTIEN-FROISSART,,,1,"Saint-Sébastien Froissart",,,,,,,public_transport:stop_area
+BERAULT,,,1,Bérault,,,,,,,public_transport:stop_area
+GARIBALDI,,,1,Garibaldi,,,,,,,public_transport:stop_area
+"ANATOLE FRANCE",,,1,"Anatole France",,,,,,,public_transport:stop_area
+"BOULOGNE-JEAN JAURES",,,1,"Boulogne - Jean Jaurès",,,,,,,public_transport:stop_area
+BOUCICAUT,,,1,Boucicaut,,,,,,,public_transport:stop_area
+"LES GOBELINS",,,1,"Les Gobelins",,,,,,,public_transport:stop_area
+"MARX DORMOY",,,1,"Marx Dormoy",,,,,,,public_transport:stop_area
+POISSONNIERE,,,1,Poissonnière,,,,,,,public_transport:stop_area
+"QUAI DE LA GARE",,,1,"Quai de la Gare",,,,,,,public_transport:stop_area
+FAIDHERBE-CHALIGNY,,,1,"Faidherbe / Chaligny",,,,,,,public_transport:stop_area
+"LA DEFENSE",,,1,"La Défense",,,,,,,public_transport:stop_area
+"GARE DU NORD",,,1,"Gare du Nord",,,,,,,public_transport:stop_area
+BASTILLE,,,1,Bastille,,,,,,,public_transport:stop_area
+CHATELET,,,1,Châtelet,,,,,,,public_transport:stop_area
+"PARC DE SCEAUX",,,1,"Parc de Sceaux",,,,,,,public_transport:stop_area
+"LA DEFENSE-RER",,,1,"La Défense",,,,,,,public_transport:stop_area
+PICPUS,,,1,Picpus,,,,,,,public_transport:stop_area
+DANUBE,,,1,Danube,,,,,,,public_transport:stop_area
+MIRABEAU,,,1,Mirabeau,,,,,,,public_transport:stop_area
+BOISSIERE,,,1,Boissière,,,,,,,public_transport:stop_area
+"GARE DE LYON-RER",,,1,"Gare de Lyon",,,,,,,public_transport:stop_area
+CAMPO-FORMIO,,,1,"Campo Formio",,,,,,,public_transport:stop_area
+"PORTE DE CHARENTON",,,1,"Porte de Charenton",,,,,,,public_transport:stop_area
+TORCY,,,1,"Gare de Torcy",,,,,,,public_transport:stop_area
+MASSY-PALAISEAU,,,1,"Gare de Massy Palaiseau",,,,,,,public_transport:stop_area
+CHAMPIGNY,,,1,"Gare de Champigny",,,,,,,public_transport:stop_area
+BOISSY-SAINT-LEGER,,,1,"Gare de Boissy Saint-Léger",,,,,,,public_transport:stop_area
+AUBER,,,1,Auber,,,,,,,public_transport:stop_area
+"PORT ROYAL",,,1,"Port Royal",,,,,,,public_transport:stop_area
+GALLIENI,,,1,Gallieni,,,,,,,public_transport:stop_area
+"MAIRIE DE CLICHY",,,1,"Mairie de Clichy",,,,,,,public_transport:stop_area
+"MARCEL SEMBAT",,,1,"Marcel Sembat",,,,,,,public_transport:stop_area
+"PONT DE SEVRES",,,1,"Pont de Sèvres",,,,,,,public_transport:stop_area
+PLAISANCE,,,1,Plaisance,,,,,,,public_transport:stop_area
+"PORTE DE VANVES",,,1,"Porte de Vanves",,,,,,,public_transport:stop_area
+VILLIERS,,,1,Villiers,,,,,,,public_transport:stop_area
+REAUMUR-SEBASTOPOL,,,1,"Réaumur / Sébastopol",,,,,,,public_transport:stop_area
+"CHAUSSEE D'ANTIN-LA FAYETTE",,,1,"Chaussée d'Antin / la Fayette",,,,,,,public_transport:stop_area
+"MALAKOFF-PLATEAU DE VANVES",,,1,"Malakoff / Plateau de Vanves",,,,,,,public_transport:stop_area
+"CORENTIN CELTON",,,1,"Corentin Celton",,,,,,,public_transport:stop_area
+ROME,,,1,Rome,,,,,,,public_transport:stop_area
+BOURSE,,,1,Bourse,,,,,,,public_transport:stop_area
+"JULES JOFFRIN",,,1,"Jules Joffrin",,,,,,,public_transport:stop_area
+"RUE DE LA POMPE",,,1,"Rue de la Pompe",,,,,,,public_transport:stop_area
+JUSSIEU,,,1,Jussieu,,,,,,,public_transport:stop_area
+"ARTS ET METIERS",,,1,"Arts et Métiers",,,,,,,public_transport:stop_area
+CHAMPS-ELYSEES-CLEMENCEAU,,,1,"Champs Elysées Clémenceau",,,,,,,public_transport:stop_area
+"CARREFOUR PLEYEL",,,1,"Carrefour Pleyel",,,,,,,public_transport:stop_area
+MAISONS-ALFORT-STADE,,,1,"Maisons Alfort / Stade",,,,,,,public_transport:stop_area
+"BOBIGNY-PANTIN-RAYMOND QUENEAU",,,1,"Bobigny - Pantin - Raymond Queneau",,,,,,,public_transport:stop_area
+DUGOMMIER,,,1,Dugommier,,,,,,,public_transport:stop_area
+COURCELLES,,,1,Courcelles,,,,,,,public_transport:stop_area
+"EDGAR QUINET",,,1,"Edgar Quinet",,,,,,,public_transport:stop_area
+"PORTE D'ITALIE",,,1,"Porte d'Italie",,,,,,,public_transport:stop_area
+MICHEL-ANGE-MOLITOR,,,1,"Michel Ange - Molitor",,,,,,,public_transport:stop_area
+"PORTE DE CLIGNANCOURT",,,1,"Porte de Clignancourt",,,,,,,public_transport:stop_area
+"GARE DE LYON",,,1,"Gare de Lyon",,,,,,,public_transport:stop_area
+"CHARLES DE GAULLE-ETOILE",,,1,"Charles de Gaulle Etoile",,,,,,,public_transport:stop_area
+"LA MOTTE-PICQUET-GRENELLE",,,1,"La Motte Picquet / Grenelle",,,,,,,public_transport:stop_area
+ANTONY,,,1,Gare d'Antony,,,,,,,public_transport:stop_area
+VINCENNES,,,1,Gare de Vincennes ,,,,,,Kraken1 = Porte de Vincennes,public_transport:stop_area
+EGLISE D'AUTEUIL,,,1,Église d'Auteuil,,,,,,,public_transport:stop_area
+PONT NEUF,,,1,Pont Neuf / Quai du Louvre,,,,,,,public_transport:stop_area
+EXELMANS,,,1,Exelmans,,,Paris,,,Kraken1 = Versailles / Exelmans,public_transport:stop_area
+EGLISE DE PANTIN,,,1,Église de Pantin,,,,,,,public_transport:stop_area
+VAUGIRARD,,,2,Vaugirard (Adolphe Chérioux) ,,,,,,Kraken1 = Gare Vaugirard,public_transport:stop_area
+CHARENTON-ECOLES,,,1,Charenton / Écoles,,,,,,,public_transport:stop_area
+GONCOURT,,,1,Goncourt / Hôpital Saint-Louis,,,,,,,public_transport:stop_area
+LIBERTE,,,2,Liberté ,,,Charenton-le-Pont ,,,Kraken1 = Liberté / Plaideurs,public_transport:stop_area
+RUE DES BOULETS,,,1,Rue des Boulets,,,Paris,,,Kraken1 = Boulets / Montreuil,public_transport:stop_area
+LA MUETTE,,,1,La Muette ,,,Paris,,,Kraken1 = Porte de la Muette,public_transport:stop_area
+SAINT-MANDE,,,1,Saint-Mandé ,,,Saint-Mandé ,,,Kraken1 = Saint-Mandé / Demi Lune / Parc Zoologique (Paris) ,public_transport:stop_area
+GEORGE V,,,1,George V ,,,Paris,,,Kraken1 = Gare de Villeneuve Saint-Georges,public_transport:stop_area
+LES SABLONS,,,1,Les Sablons ,,,Neuilly-sur-Seine ,,,Kraken1 = Sablons / Cortambert,public_transport:stop_area
+PLACE CLICHY,,,1,Place de Clichy,,,Paris,,,,public_transport:stop_area
+ORSAY-VILLE,,,1,Gare d'Orsay Ville,,,,,,,public_transport:stop_area
+LE PARC DE SAINT-MAUR,,,1,Gare du Parc de Saint-Maur,,,,,,,public_transport:stop_area
+LES HALLES,,,1,Châtelet les Halles,,,,,,,public_transport:stop_area
+BIBLIOTHEQUE,,,1,Bibliothèque François Mitterrand,,,,,,,public_transport:stop_area
+SAINT-LAZARE,,,1,Gare Saint-Lazare,,,,,,,public_transport:stop_area
+LOUVRE,,,1,Palais Royal Musée du Louvre,,,,,,,public_transport:stop_area
+MARAICHERS,,,1,Maraîchers,,,,,,,public_transport:stop_area
+LOUISE MICHEL,,,1,Louise Michel ,,,Levallois-Perret ,,,Kraken1 = Yerres / Louise Michel,public_transport:stop_area
+PORTE DAUPHINE,,,1,Porte Dauphine / Maréchal de Lattre de Tassigny,,,,,,,public_transport:stop_area
+LA COURNEUVE-8 MAI 1945,,,1,8 Mai 1945,,,La Courneuve ,,,,public_transport:stop_area
+AUBERVILLIERS-PANTIN-QUATRE CHEMINS,,,1,Aubervilliers / Pantin ,,,,,,Kraken1 = Petit Chemin du Pont Blanc,public_transport:stop_area
+GRANDS BOULEVARDS,,,1,Grands Boulevards (Rue Montmartre),,,,,,,public_transport:stop_area
+CRETEIL-L'ECHAT,,,1,Créteil l'Echat / Hôpital Henri Mondor,,,,,,,public_transport:stop_area
+CITE,,,1,Cité,,,Paris,,,Kraken1 = Cité de la Mode et du Design,public_transport:stop_area
+VOLTAIRE,,,1,Voltaire / Léon Blum,,,,,,,public_transport:stop_area
+LE GUICHET,,,1,Gare du Guichet,,,Orsay,,,,public_transport:stop_area
+LE VESINET-LE PECQ,,,1,Gare du Vésinet le Pecq,,,Le Vésinet ,,,,public_transport:stop_area
+LE VESINET-CENTRE,,,1,Gare du Vésinet Centre,,,Le Vésinet ,,,,public_transport:stop_area
+FONTENAY-AUX-ROSES,,,1,Gare de Fontenay aux Roses ,,,Fontenay-aux-Roses ,,,Kraken1 = Division Leclerc,public_transport:stop_area
+PALAIS-ROYAL,,,1,Palais Royal Musée du Louvre,,,,,,,public_transport:stop_area
+CHARDON-LAGACHE,,,1,Chardon / Lagache ,,,Paris,,,Kraken1 = Versailles / Chardon Lagache,public_transport:stop_area
+PEREIRE,,,1,Pereire ,,,Paris ,,,Kraken1 = Pereire Levallois,public_transport:stop_area
+LES COURTILLES,,,1,Asnières Gennevilliers les Courtilles,,,,,,,public_transport:stop_area
+ECOLE VETERINAIRE DE MAISONS-ALFORT,,,1,École Vétérinaire de Maisons Alfort,,,,,,,public_transport:stop_area
+LA CROIX DE BERNY,,,1,Gare de la Croix de Berny Fresnes,,,,,,,public_transport:stop_area
+FONTENAY-SOUS-BOIS,,,1,Gare de Fontenay sous Bois ,,,Fontenay-sous-Bois ,,,Kraken1 = Gare de Val de Fontenay,public_transport:stop_area
+NATION,,,1,Nation,,,Paris,,,,public_transport:stop_area
+BILLANCOURT,,,1,Billancourt ,,,Boulogne-Billancourt ,,,Kraken1 = Pont de Sèvres,public_transport:stop_area
+TOLBIAC,,,1,Italie / Tolbiac,,,,,,,public_transport:stop_area
+SAINT-MAUR,,,1,Rue Saint-Maur ,,,Paris,,,Kraken1 = Saint-Maur / Servan,public_transport:stop_area
+GENTILLY,,,1,Gare de Gentilly ,,,,,,Kraken1 = Stade Charléty / Porte de Gentilly,public_transport:stop_area
+PALAISEAU,,,2,Gare de Palaiseau ,,,Palaiseau ,,,Kraken1 = Gare de Massy Palaiseau,public_transport:stop_area
+GABRIEL PERI,,,1,Gabriel Péri Asnières Gennevilliers,,,,,,,public_transport:stop_area
+LA CHAPELLE,,,1,La Chapelle ,,,,,,Kraken1 = Porte de la Chapelle,public_transport:stop_area
+SAINT-MICHEL,,,1,Saint-Michel Notre-Dame,,,,,,,public_transport:stop_area
+COUR SAINT-EMILION,,,1,Cour Saint-Émilion,,,,,,,public_transport:stop_area
+MALESHERBES,,,1,Malesherbes ,,,Paris ,,,Kraken1 = Malesherbes / Courcelles,public_transport:stop_area
+JAVEL-ANDRE CITROEN,,,1,Javel / André Citroën,,,,,,,public_transport:stop_area
+PORTE DE PANTIN,,,1,Porte de Pantin / Parc de la Villette,,,,,,,public_transport:stop_area
+TEMPLE,,,1,Temple ,,,Paris ,,,Kraken1 = Square du Temple,public_transport:stop_area
+KLEBER,,,1,Kléber ,,,,,,Kraken1 = Kléber / Paul Valéry,public_transport:stop_area
+AVENUE EMILE ZOLA,,,1,Avenue Émile Zola,,,,,,,public_transport:stop_area
+MONTPARNASSE-BIENVENUE,,,1,Gare Montparnasse ,,,,,,Kraken1 = erreur sur bienvenue,public_transport:stop_area
+SAINT-GEORGES,,,2,Saint-Georges ,,,,,,Kraken1 = Gare de Villeneuve Saint-Georges,public_transport:stop_area
+RICHARD LENOIR,,,1,Richard Lenoir,,,,,,Kraken1 = Oberkampf / Richard Lenoir,public_transport:stop_area
+SCEAUX,,,1,Gare de Sceaux ,,,Sceaux ,,,Kraken1 = Gare de Robinson,public_transport:stop_area
+ARCUEIL-CACHAN,,,1,Gare d'Arcueil Cachan,,,,,,,public_transport:stop_area
+LES BACONNETS,,,1,Gare des Baconnets,,,,,,,public_transport:stop_area
+BRY-SUR-MARNE,,,1,Gare de Bry sur Marne ,,,,,,Kraken1 = Fourchette de Bry,public_transport:stop_area
+HOCHE,,,1,Hoche ,,,Pantin,,,Kraken1 = Hoche / Saint-Honoré,public_transport:stop_area
+ECOLE MILITAIRE,,,1,École Militaire,,,,,,,public_transport:stop_area
+VILLEJUIF-PAUL VAILLANT-COUTURIER,,,1,Villejuif / Paul Vaillant Couturier / Hôpital Paul Brousse,,,,,,,public_transport:stop_area
+NATIONALE,,,1,Nationale ,,,Paris,,,Kraken1 = Assemblée Nationale,public_transport:stop_area
