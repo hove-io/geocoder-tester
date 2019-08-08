@@ -1,0 +1,11 @@
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,skip,comment,expected_type
+Roubaix Charles de Gaule,3.066667,50.633333,,Roubaix Charles de Gaulle,,,,,,,public_transport:stop_area
+Pierre Mauroy,3.066667,50.633333,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
+Pierre Moroy,3.066667,50.633333,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
+Brosolette,3.066667,50.633333,2,Brossolette,,,,,,,public_transport:stop_area
+Brossolete,3.066667,50.633333,,Brossolette,,,,,,,public_transport:stop_area
+Celemenceau,3.066667,50.633333,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
+lequesne,3.066667,50.633333,2,Le Quesne,,,,,,,public_transport:stop_area
+grand cottignis,3.066667,50.633333,,Grand Cottignies,,,,,,,public_transport:stop_area
+grand cottignie,3.066667,50.633333,,Grand Cottignies,,,,,,,public_transport:stop_area
+Terasse,3.066667,50.633333,,La Terrasse,,,,,,,public_transport:stop_area

@@ -27,7 +27,6 @@ Wasquehal Hotel de Ville,3.066667,50.633333,,Wasquehal Hotel de Ville,,,Wasqueha
 Croix Centre,3.066667,50.633333,,Centre,,,Croix,,,,public_transport:stop_area
 Centre Croix,3.066667,50.633333,,Centre,,,Croix,,,,public_transport:stop_area
 Epeule Montesquieu,3.066667,50.633333,,Épeule Montesquieu,,,,,,,public_transport:stop_area
-Roubaix Charles de Gaule,3.066667,50.633333,,Roubaix Charles de Gaulle,,,,,,,public_transport:stop_area
 Roubaix Charles de Gaulle,3.066667,50.633333,,Roubaix Charles de Gaulle,,,,,,,public_transport:stop_area
 Roubaix Grand Place,3.066667,50.633333,,Roubaix Grand Place,,,,,,,public_transport:stop_area
 Gare Jean Lebas,3.066667,50.633333,,Gare Jean Lebas,,,,,,,public_transport:stop_area
@@ -57,8 +56,6 @@ Villeneuve d’ascq Hotel de ville,3.066667,50.633333,2,Villeneuve d'Ascq - Hôt
 Triolo,3.066667,50.633333,,Triolo,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Cité scientifique Pr Gabillard,3.066667,50.633333,,Cité Scientifique - Lille,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Cantons Stade Pierre Mauroy,3.066667,50.633333,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-Pierre Mauroy,3.066667,50.633333,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
-Pierre Moroy,3.066667,50.633333,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
 Stade Pierre Mauroy,3.066667,50.633333,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 4 Cantons,3.066667,50.633333,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,Cet arret existe 3 fois dans les données avec nom different.,public_transport:stop_area
 Gare de Lyon,3.066667,50.633333,4,gare de Lyon-Vaise,,,,,,,public_transport:stop_area
@@ -67,20 +64,14 @@ Botanique,3.066667,50.633333,,Botanique,,,,,,,public_transport:stop_area
 Saint Maur,3.066667,50.633333,,Saint Maur,,,La Madeleine,,,,public_transport:stop_area
 Buisson,3.066667,50.633333,,Buisson,,,,,,,public_transport:stop_area
 Brossolette,3.066667,50.633333,,Brossolette,,,,,,,public_transport:stop_area
-Brosolette,3.066667,50.633333,2,Brossolette,,,,,,,public_transport:stop_area
-Brossolete,3.066667,50.633333,,Brossolette,,,,,,,public_transport:stop_area
 Clemenceau Hippodrome,3.066667,50.633333,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
-Celemenceau,3.066667,50.633333,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
 Croisé Laroche,3.066667,50.633333,,Croise Laroche,,,,,,,public_transport:stop_area
 Foch,3.066667,50.633333,,Foch,,,,,,,public_transport:stop_area
 Le Quesne,3.066667,50.633333,,Le Quesne,,,,,,?,public_transport:stop_area
-lequesne,3.066667,50.633333,2,Le Quesne,,,,,,,public_transport:stop_area
 cerisaie centre d’affaires,3.066667,50.633333,2,Cerisaie,,,,,,,public_transport:stop_area
 cerisaie,3.066667,50.633333,,Cerisaie,,,,,,,public_transport:stop_area
 chateau rouge,3.066667,50.633333,,Château Rouge,,,,,,,public_transport:stop_area
 cartelot,3.066667,50.633333,,Cartelot,,,,,,,public_transport:stop_area
-grand cottignis,3.066667,50.633333,,Grand Cottignies,,,,,,,public_transport:stop_area
-grand cottignie,3.066667,50.633333,,Grand Cottignies,,,,,,,public_transport:stop_area
 triez,3.066667,50.633333,,Triez,,,,,,,public_transport:stop_area
 Trois suisses,3.066667,50.633333,,Trois Suisses,,,,,,,public_transport:stop_area
 Faidherbe,3.066667,50.633333,,Faidherbe,,,,,,,public_transport:stop_area
@@ -93,7 +84,6 @@ Pont Whasquehal,3.066667,50.633333,,Pont De Wasquehal,,,,,,,public_transport:sto
 Pont de Whasquehal,3.066667,50.633333,,Pont De Wasquehal,,,,,,,public_transport:stop_area
 La terrasse,3.066667,50.633333,,La Terrasse,,,,,,,public_transport:stop_area
 Terrasse,3.066667,50.633333,,La Terrasse,,,,,,,public_transport:stop_area
-Terasse,3.066667,50.633333,,La Terrasse,,,,,,,public_transport:stop_area
 Le sart,3.066667,50.633333,,Le Sart,,,Villeneuve-d'Ascq,,connu,HOR-147,public_transport:stop_area
 Sart,3.066667,50.633333,,Le Sart,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Planche epinoy,3.066667,50.633333,2,Planche Epinoy,,,,,,,public_transport:stop_area
@@ -105,7 +95,7 @@ Parc barbieux,3.066667,50.633333,,Parc Barbieux,,,Roubaix,,,,public_transport:st
 Barbieux,3.066667,50.633333,,Parc Barbieux,,,Roubaix,,,,public_transport:stop_area
 Hôpital victor provo,3.066667,50.633333,2,Hopital Victor Provo,,,Roubaix,,,L’Hôpital Victor Provo est un poi. Hopital Victor Provo un stop area,public_transport:stop_area
 Hopital victor provo,3.066667,50.633333,2,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
-Victor provo,3.066667,50.633333,,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
+Victor provo,3.066667,50.633333,2,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
 Jean Moulin,3.066667,50.633333,,Jean Moulin,,,Roubaix,,,,public_transport:stop_area
 Alfred Mongy,3.066667,50.633333,2,Alfred Mongy,,,Roubaix,,,,public_transport:stop_area
 Roubaix Eurotéléport,3.066667,50.633333,,Euroteleport,,,Roubaix,,,,public_transport:stop_area

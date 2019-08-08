@@ -3,7 +3,6 @@ St Philibert lille,,,2,St. Philibert,,,,,,,public_transport:stop_area
 St. Philibert lille,,,2,St. Philibert,,,,,,,public_transport:stop_area
 Saint Philibert lille,,,2,St. Philibert,,,,,,,public_transport:stop_area
 Saint-Philibert lille,,,2,St. Philibert,,,,,,,public_transport:stop_area
-Saint philibret lille,,,2,St. Philibert,,,,,fuzzy,HOR-143 synonymes non gérés,public_transport:stop_area
 Bourg lille,,,,Bourg,,,,,,,public_transport:stop_area
 Maison des Enfants,,,,Maison Des Enfants,,,,,,,public_transport:stop_area
 Mitterie,,,,Mitterie,,,,,,,public_transport:stop_area
@@ -31,7 +30,6 @@ Wasquehal Hotel de Ville,,,,Hotel de Ville,,,Wasquehal,,,,public_transport:stop_
 Croix Centre,,,,Centre,,,Croix,,,,public_transport:stop_area
 Centre Croix,,,,Centre,,,Croix,,,,public_transport:stop_area
 Epeule Montesquieu,,,,Épeule Montesquieu,,,,,,,public_transport:stop_area
-Roubaix Charles de Gaule,,,,Roubaix Charles de Gaulle,,,,,,,public_transport:stop_area
 Roubaix Charles de Gaulle,,,,Roubaix Charles de Gaulle,,,,,,,public_transport:stop_area
 Roubaix Grand Place,,,,Roubaix Grand Place,,,,,,,public_transport:stop_area
 Gare Jean Lebas,,,,Gare Jean Lebas,,,,,,,public_transport:stop_area
@@ -61,8 +59,6 @@ Villeneuve d’ascq Hotel de ville,,,2,Villeneuve d'Ascq - Hôtel de Ville,,,Vil
 Triolo,,,,Triolo,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Cité scientifique Pr Gabillard,,,,Cité Scientifique - Lille,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Cantons Stade Pierre Mauroy,,,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
-Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
-Pierre Moroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
 Stade Pierre Mauroy,,,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 4 Cantons,,,2,4 Cantons Stade,,,Villeneuve-d'Ascq,,,Cet arret existe 3 fois dans les données avec nom different.,public_transport:stop_area
 Gare de Lyon,,,4,gare de Lyon-Vaise,,,,,,,public_transport:stop_area
@@ -71,20 +67,14 @@ Botanique,,,,Botanique,,,,,,,public_transport:stop_area
 Saint Maur,,,,Saint Maur,,,La Madeleine,,,,public_transport:stop_area
 Buisson,,,,Buisson,,,,,,,public_transport:stop_area
 Brossolette,,,,Brossolette,,,,,,,public_transport:stop_area
-Brosolette,,,2,Brossolette,,,,,,,public_transport:stop_area
-Brossolete,,,,Brossolette,,,,,,,public_transport:stop_area
 Clemenceau Hippodrome,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
-Celemenceau,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
 Croisé Laroche,,,,Croise Laroche,,,,,,,public_transport:stop_area
 Foch,,,,Foch,,,,,,,public_transport:stop_area
 Le Quesne,,,2,Le Quesne,,,,,,?,public_transport:stop_area
-lequesne,,,2,Le Quesne,,,,,,,public_transport:stop_area
 cerisaie centre d’affaires,,,2,Cerisaie,,,,,,,public_transport:stop_area
 cerisaie,,,,Cerisaie,,,,,,,public_transport:stop_area
 chateau rouge,,,,Château Rouge,,,,,,,public_transport:stop_area
 cartelot,,,,Cartelot,,,,,,,public_transport:stop_area
-grand cottignis,,,,Grand Cottignies,,,,,,,public_transport:stop_area
-grand cottignie,,,,Grand Cottignies,,,,,,,public_transport:stop_area
 triez,,,,Triez,,,,,,,public_transport:stop_area
 Trois suisses,,,,Trois Suisses,,,,,,,public_transport:stop_area
 Faidherbe,,,,Faidherbe,,,,,,,public_transport:stop_area
@@ -97,7 +87,6 @@ Pont Whasquehal,,,,Pont De Wasquehal,,,,,,,public_transport:stop_area
 Pont de Whasquehal,,,,Pont De Wasquehal,,,,,,,public_transport:stop_area
 La terrasse,,,,La Terrasse,,,,,,,public_transport:stop_area
 Terrasse,,,,La Terrasse,,,,,,,public_transport:stop_area
-Terasse,,,,La Terrasse,,,,,,,public_transport:stop_area
 Le sart,,,,Le Sart,,,Villeneuve-d'Ascq,,connu,HOR-147,public_transport:stop_area
 Sart,,,,Le Sart,,,Villeneuve-d'Ascq,,,,public_transport:stop_area
 Planche epinoy,,,2,Planche Epinoy,,,,,,,public_transport:stop_area
@@ -108,7 +97,7 @@ Bol d’air,,,,Bol D'Air,,,,,,,public_transport:stop_area
 Parc barbieux,,,,Parc Barbieux,,,Roubaix,,,,public_transport:stop_area
 Barbieux,,,,Parc Barbieux,,,Roubaix,,,,public_transport:stop_area
 Hôpital victor provo,,,2,Hopital Victor Provo,,,Roubaix,,,L’Hôpital Victor Provo est un poi. Hopital Victor Provo un stop area,public_transport:stop_area
-Victor provo,,,,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
+Victor provo,,,2,Hopital Victor Provo,,,Roubaix,,,,public_transport:stop_area
 Jean Moulin,,,,Jean Moulin,,,Roubaix,,,,public_transport:stop_area
 Alfred Mongy,,,2,Alfred Mongy,,,Roubaix,,,,public_transport:stop_area
 Roubaix Eurotéléport,,,,Euroteleport,,,Roubaix,,,,public_transport:stop_area
