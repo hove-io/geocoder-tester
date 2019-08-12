@@ -1,0 +1,12 @@
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,skip,comment,expected_type
+Saint philibret lille,,,2,St. Philibert,,,,,fuzzy,HOR-143 synonymes non gérés,public_transport:stop_area
+Roubaix Charles de Gaule,,,,Roubaix Charles de Gaulle,,,,,,,public_transport:stop_area
+Pierre Mauroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
+Pierre Moroy,,,,4 Cantons Stade,,,Villeneuve-d'Ascq,,testCase,cas métier pertinent?,public_transport:stop_area
+Brosolette,,,2,Brossolette,,,,,,,public_transport:stop_area
+Brossolete,,,,Brossolette,,,,,,,public_transport:stop_area
+Celemenceau,,,2,Clemenceau Hippodrome,,,Marcq-en-Barœul,,,Une station “Clemenceau” une “clemenceau Hippodrome”,public_transport:stop_area
+lequesne,,,2,Le Quesne,,,,,,,public_transport:stop_area
+grand cottignis,,,,Grand Cottignies,,,,,,,public_transport:stop_area
+grand cottignie,,,,Grand Cottignies,,,,,,,public_transport:stop_area
+Terasse,,,,La Terrasse,,,,,,,public_transport:stop_area
