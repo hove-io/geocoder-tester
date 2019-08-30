@@ -1,0 +1,2 @@
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode,skip,comment,expected_type
+"Station apeld",,,1,"Apeldoorn, Station",,,Apeldoorn,,,,public_transport:stop_area
