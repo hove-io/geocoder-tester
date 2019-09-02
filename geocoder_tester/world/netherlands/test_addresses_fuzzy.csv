@@ -1,0 +1,10 @@
+query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_city,expected_postcode
+"elvis presleystaadt zaandijk",,,4,,,Elvis Presleystraat,Zaandijk,
+"Berkenweg 3 Amer",,,4,,3,Berkenweg,Amersfoort,
+"Walsteg Utrecht",,,4,,,Walsteeg,Utrecht,
+"Walsteg 3 Utrecht",,,4,,3,Walsteeg,Utrecht,
+"Dashorst",,,4,,,Dashorstweg,Zwolle,
+"Steerelaan 25 hilversum",,,1,,25,Sterrelaan,Hilversum,1217PR
+"Hitchcooklaan 20",,,4,,20,Hitchcocklaan,Almere,1325TD
+"Hitchcooklaan 8-54",,,4,,8,Hitchcocklaan,Almere,1325TD
+"Hitchcooklaan 8-54",,,4,,54,Hitchcocklaan,Almere,1325TD
