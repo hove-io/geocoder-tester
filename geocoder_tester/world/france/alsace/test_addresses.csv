@@ -36,7 +36,7 @@ query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_
 5 Rue des Jardins 67360,,,,5 Rue des Jardins,,,,67360
 5 Rue des Jardins,7.723738,48.945068,,5 Rue des Jardins,,,,67360
 4 Rue des Pierres Gerstheim,,,,4 Rue des Pierres,,,,67150
-4 Rue des Pierres 67150,,,,4 Rue des Pierres,,,Gerstheim,
+4 Rue des Pierres 67150,,,4,4 Rue des Pierres,,,Gerstheim,
 4 Rue des Pierres,7.702393,48.382072,,4 Rue des Pierres,,,,67150
 4 Rue des Traîneaux Gries,,,,4 Rue des Traîneaux,,,,67500
 4 Rue des Traîneaux 67500,,,,4 Rue des Traîneaux,,,Gries,
@@ -205,7 +205,7 @@ query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_
 7C Rue de la Hardt,7.503440,47.758244,,7C Rue de la Hardt,,,,68490
 3 Route d'Elsenheim Illhaeusern,,,,3 Route d'Elsenheim,,,,68970
 3 Route d'Elsenheim 68970,,,,3 Route d'Elsenheim,,,Illhaeusern,
-3 Route d'Elsenheim,7.437233,48.182285,,3 Route d'Elsenheim,,,,68970
+3 Route d'Elsenheim,7.437233,48.182285,2,3 Route d'Elsenheim,,,,68970
 41 Rue Ostein Issenheim,,,,41 Rue Ostein,,,,68500
 41 Rue Ostein 68500,,,,41 Rue Ostein,,,Issenheim,
 41 Rue Ostein,7.258484,47.903761,,41 Rue Ostein,,,,68500
@@ -245,8 +245,8 @@ query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_
 4 Rue de l'Iris Ribeauvillé,,,,4 Rue de l'Iris,,,,68150
 4 Rue de l'Iris 68150,,,,4 Rue de l'Iris,,,Ribeauvillé,
 4 Rue de l'Iris,7.340012,48.192233,,4 Rue de l'Iris,,,,68150
-8 Rue des Vanneaux Riedwihr,,,,8 Rue des Vanneaux,,,,68320
-8 Rue des Vanneaux 68320,,,,8 Rue des Vanneaux,,,Riedwihr,
+8 Rue des Vanneaux Porte-du-Ried,,,,8 Rue des Vanneaux,,,,68320
+8 Rue des Vanneaux 68320,,,,8 Rue des Vanneaux,,,Porte-du-Ried,
 8 Rue des Vanneaux,7.446697,48.128654,,8 Rue des Vanneaux,,,,68320
 10 Route de Thann Roderen,,,,10 Route de Thann,,,,68800
 10 Route de Thann 68800,,,,10 Route de Thann,,,Roderen,
@@ -282,5 +282,5 @@ query,lon,lat,limit,expected_name,expected_housenumber,expected_street,expected_
 12 Rue de la Forêt 68270,,,,12 Rue de la Forêt,,,Wittenheim,
 12 Rue de la Forêt,7.333542,47.808725,,12 Rue de la Forêt,,,,68270
 2 Rue Bellevue Zillisheim,,,,2 Rue Bellevue,,,,68720
-2 Rue Bellevue 68720,,,,2 Rue Bellevue,,,Zillisheim,
+2 Rue Bellevue 68720,,,4,2 Rue Bellevue,,,Zillisheim,
 2 Rue Bellevue,7.293475,47.693405,,2 Rue Bellevue,,,,68720
