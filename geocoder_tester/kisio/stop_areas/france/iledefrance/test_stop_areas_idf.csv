@@ -300,20 +300,20 @@ MICHEL-ANGE-MOLITOR,,,1,"Michel Ange - Molitor",,,,,,,public_transport:stop_area
 "CHARLES DE GAULLE-ETOILE",,,1,"Charles de Gaulle Etoile",,,,,,,public_transport:stop_area
 "LA MOTTE-PICQUET-GRENELLE",,,1,"La Motte Picquet / Grenelle",,,,,,,public_transport:stop_area
 ANTONY,,,1,Gare d'Antony,,,,,,,public_transport:stop_area
-VINCENNES,,,1,Gare de Vincennes ,,,,,,Kraken1 = Porte de Vincennes,public_transport:stop_area
+VINCENNES,,,1,Gare de Vincennes,,,,,,Kraken1 = Porte de Vincennes,public_transport:stop_area
 EGLISE D'AUTEUIL,,,1,Église d'Auteuil,,,,,,,public_transport:stop_area
 PONT NEUF,,,1,Pont Neuf / Quai du Louvre,,,,,,,public_transport:stop_area
 EXELMANS,,,1,Exelmans,,,Paris,,,Kraken1 = Versailles / Exelmans,public_transport:stop_area
 EGLISE DE PANTIN,,,1,Église de Pantin,,,,,,,public_transport:stop_area
-VAUGIRARD,,,2,Vaugirard (Adolphe Chérioux) ,,,,,,Kraken1 = Gare Vaugirard,public_transport:stop_area
+VAUGIRARD,,,2,Vaugirard (Adolphe Chérioux),,,,,,Kraken1 = Gare Vaugirard,public_transport:stop_area
 CHARENTON-ECOLES,,,1,Charenton / Écoles,,,,,,,public_transport:stop_area
 GONCOURT,,,1,Goncourt / Hôpital Saint-Louis,,,,,,,public_transport:stop_area
-LIBERTE,,,2,Liberté ,,,Charenton-le-Pont ,,,Kraken1 = Liberté / Plaideurs,public_transport:stop_area
+LIBERTE,,,2,Liberté,,,Charenton-le-Pont,,,Kraken1 = Liberté / Plaideurs,public_transport:stop_area
 RUE DES BOULETS,,,1,Rue des Boulets,,,Paris,,,Kraken1 = Boulets / Montreuil,public_transport:stop_area
-LA MUETTE,,,1,La Muette ,,,Paris,,,Kraken1 = Porte de la Muette,public_transport:stop_area
-SAINT-MANDE,,,1,Saint-Mandé ,,,Saint-Mandé ,,,Kraken1 = Saint-Mandé / Demi Lune / Parc Zoologique (Paris) ,public_transport:stop_area
-GEORGE V,,,1,George V ,,,Paris,,,Kraken1 = Gare de Villeneuve Saint-Georges,public_transport:stop_area
-LES SABLONS,,,1,Les Sablons ,,,Neuilly-sur-Seine ,,,Kraken1 = Sablons / Cortambert,public_transport:stop_area
+LA MUETTE,,,1,La Muette,,,Paris,,,Kraken1 = Porte de la Muette,public_transport:stop_area
+SAINT-MANDE,,,1,Saint-Mandé,,,Saint-Mandé,,,Kraken1 = Saint-Mandé / Demi Lune / Parc Zoologique (Paris),public_transport:stop_area
+GEORGE V,,,1,George V,,,Paris,,,Kraken1 = Gare de Villeneuve Saint-Georges,public_transport:stop_area
+LES SABLONS,,,1,Les Sablons,,,Neuilly-sur-Seine,,,Kraken1 = Sablons / Cortambert,public_transport:stop_area
 PLACE CLICHY,,,1,Place de Clichy,,,Paris,,,,public_transport:stop_area
 ORSAY-VILLE,,,1,Gare d'Orsay Ville,,,,,,,public_transport:stop_area
 LE PARC DE SAINT-MAUR,,,1,Gare du Parc de Saint-Maur,,,,,,,public_transport:stop_area
@@ -322,49 +322,49 @@ BIBLIOTHEQUE,,,1,Bibliothèque François Mitterrand,,,,,,,public_transport:stop_
 SAINT-LAZARE,,,1,Gare Saint-Lazare,,,,,,,public_transport:stop_area
 LOUVRE,,,1,Palais Royal Musée du Louvre,,,,,,,public_transport:stop_area
 MARAICHERS,,,1,Maraîchers,,,,,,,public_transport:stop_area
-LOUISE MICHEL,,,1,Louise Michel ,,,Levallois-Perret ,,,Kraken1 = Yerres / Louise Michel,public_transport:stop_area
+LOUISE MICHEL,,,1,Louise Michel,,,Levallois-Perret,,,Kraken1 = Yerres / Louise Michel,public_transport:stop_area
 PORTE DAUPHINE,,,1,Porte Dauphine / Maréchal de Lattre de Tassigny,,,,,,,public_transport:stop_area
-LA COURNEUVE-8 MAI 1945,,,1,8 Mai 1945,,,La Courneuve ,,,,public_transport:stop_area
-AUBERVILLIERS-PANTIN-QUATRE CHEMINS,,,1,Aubervilliers / Pantin ,,,,,,Kraken1 = Petit Chemin du Pont Blanc,public_transport:stop_area
+LA COURNEUVE-8 MAI 1945,,,1,8 Mai 1945,,,La Courneuve,,,,public_transport:stop_area
+AUBERVILLIERS-PANTIN-QUATRE CHEMINS,,,1,Aubervilliers / Pantin,,,,,,Kraken1 = Petit Chemin du Pont Blanc,public_transport:stop_area
 GRANDS BOULEVARDS,,,1,Grands Boulevards (Rue Montmartre),,,,,,,public_transport:stop_area
 CRETEIL-L'ECHAT,,,1,Créteil l'Echat / Hôpital Henri Mondor,,,,,,,public_transport:stop_area
 CITE,,,1,Cité,,,Paris,,,Kraken1 = Cité de la Mode et du Design,public_transport:stop_area
 VOLTAIRE,,,1,Voltaire / Léon Blum,,,,,,,public_transport:stop_area
 LE GUICHET,,,1,Gare du Guichet,,,Orsay,,,,public_transport:stop_area
-LE VESINET-LE PECQ,,,1,Gare du Vésinet le Pecq,,,Le Vésinet ,,,,public_transport:stop_area
-LE VESINET-CENTRE,,,1,Gare du Vésinet Centre,,,Le Vésinet ,,,,public_transport:stop_area
-FONTENAY-AUX-ROSES,,,1,Gare de Fontenay aux Roses ,,,Fontenay-aux-Roses ,,,Kraken1 = Division Leclerc,public_transport:stop_area
+LE VESINET-LE PECQ,,,1,Gare du Vésinet le Pecq,,,Le Vésinet,,,,public_transport:stop_area
+LE VESINET-CENTRE,,,1,Gare du Vésinet Centre,,,Le Vésinet,,,,public_transport:stop_area
+FONTENAY-AUX-ROSES,,,1,Gare de Fontenay aux Roses,,,Fontenay-aux-Roses,,,Kraken1 = Division Leclerc,public_transport:stop_area
 PALAIS-ROYAL,,,1,Palais Royal Musée du Louvre,,,,,,,public_transport:stop_area
-CHARDON-LAGACHE,,,1,Chardon / Lagache ,,,Paris,,,Kraken1 = Versailles / Chardon Lagache,public_transport:stop_area
-PEREIRE,,,1,Pereire ,,,Paris ,,,Kraken1 = Pereire Levallois,public_transport:stop_area
+CHARDON-LAGACHE,,,1,Chardon / Lagache,,,Paris,,,Kraken1 = Versailles / Chardon Lagache,public_transport:stop_area
+PEREIRE,,,1,Pereire,,,Paris,,,Kraken1 = Pereire Levallois,public_transport:stop_area
 LES COURTILLES,,,1,Asnières Gennevilliers les Courtilles,,,,,,,public_transport:stop_area
 ECOLE VETERINAIRE DE MAISONS-ALFORT,,,1,École Vétérinaire de Maisons Alfort,,,,,,,public_transport:stop_area
 LA CROIX DE BERNY,,,1,Gare de la Croix de Berny Fresnes,,,,,,,public_transport:stop_area
-FONTENAY-SOUS-BOIS,,,1,Gare de Fontenay sous Bois ,,,Fontenay-sous-Bois ,,,Kraken1 = Gare de Val de Fontenay,public_transport:stop_area
+FONTENAY-SOUS-BOIS,,,1,Gare de Fontenay sous Bois,,,Fontenay-sous-Bois,,,Kraken1 = Gare de Val de Fontenay,public_transport:stop_area
 NATION,,,1,Nation,,,Paris,,,,public_transport:stop_area
-BILLANCOURT,,,1,Billancourt ,,,Boulogne-Billancourt ,,,Kraken1 = Pont de Sèvres,public_transport:stop_area
+BILLANCOURT,,,1,Billancourt,,,Boulogne-Billancourt,,,Kraken1 = Pont de Sèvres,public_transport:stop_area
 TOLBIAC,,,1,Italie / Tolbiac,,,,,,,public_transport:stop_area
-SAINT-MAUR,,,1,Rue Saint-Maur ,,,Paris,,,Kraken1 = Saint-Maur / Servan,public_transport:stop_area
-GENTILLY,,,1,Gare de Gentilly ,,,,,,Kraken1 = Stade Charléty / Porte de Gentilly,public_transport:stop_area
-PALAISEAU,,,2,Gare de Palaiseau ,,,Palaiseau ,,,Kraken1 = Gare de Massy Palaiseau,public_transport:stop_area
+SAINT-MAUR,,,1,Rue Saint-Maur,,,Paris,,,Kraken1 = Saint-Maur / Servan,public_transport:stop_area
+GENTILLY,,,1,Gare de Gentilly,,,,,,Kraken1 = Stade Charléty / Porte de Gentilly,public_transport:stop_area
+PALAISEAU,,,2,Gare de Palaiseau,,,Palaiseau,,,Kraken1 = Gare de Massy Palaiseau,public_transport:stop_area
 GABRIEL PERI,,,1,Gabriel Péri Asnières Gennevilliers,,,,,,,public_transport:stop_area
-LA CHAPELLE,,,1,La Chapelle ,,,,,,Kraken1 = Porte de la Chapelle,public_transport:stop_area
+LA CHAPELLE,,,1,La Chapelle,,,,,,Kraken1 = Porte de la Chapelle,public_transport:stop_area
 SAINT-MICHEL,,,1,Saint-Michel Notre-Dame,,,,,,,public_transport:stop_area
 COUR SAINT-EMILION,,,1,Cour Saint-Émilion,,,,,,,public_transport:stop_area
-MALESHERBES,,,1,Malesherbes ,,,Paris ,,,Kraken1 = Malesherbes / Courcelles,public_transport:stop_area
+MALESHERBES,,,1,Malesherbes,,,Paris,,,Kraken1 = Malesherbes / Courcelles,public_transport:stop_area
 JAVEL-ANDRE CITROEN,,,1,Javel / André Citroën,,,,,,,public_transport:stop_area
 PORTE DE PANTIN,,,1,Porte de Pantin / Parc de la Villette,,,,,,,public_transport:stop_area
-TEMPLE,,,1,Temple ,,,Paris ,,,Kraken1 = Square du Temple,public_transport:stop_area
-KLEBER,,,1,Kléber ,,,,,,Kraken1 = Kléber / Paul Valéry,public_transport:stop_area
+TEMPLE,,,1,Temple,,,Paris,,,Kraken1 = Square du Temple,public_transport:stop_area
+KLEBER,,,1,Kléber,,,,,,Kraken1 = Kléber / Paul Valéry,public_transport:stop_area
 AVENUE EMILE ZOLA,,,1,Avenue Émile Zola,,,,,,,public_transport:stop_area
-MONTPARNASSE-BIENVENUE,,,1,Gare Montparnasse ,,,,,,Kraken1 = erreur sur bienvenue,public_transport:stop_area
-SAINT-GEORGES,,,2,Saint-Georges ,,,,,,Kraken1 = Gare de Villeneuve Saint-Georges,public_transport:stop_area
+MONTPARNASSE-BIENVENUE,,,1,Gare Montparnasse,,,,,,Kraken1 = erreur sur bienvenue,public_transport:stop_area
+SAINT-GEORGES,,,2,Saint-Georges,,,,,,Kraken1 = Gare de Villeneuve Saint-Georges,public_transport:stop_area
 RICHARD LENOIR,,,1,Richard Lenoir,,,,,,Kraken1 = Oberkampf / Richard Lenoir,public_transport:stop_area
-SCEAUX,,,1,Gare de Sceaux ,,,Sceaux ,,,Kraken1 = Gare de Robinson,public_transport:stop_area
+SCEAUX,,,1,Gare de Sceaux,,,Sceaux,,,Kraken1 = Gare de Robinson,public_transport:stop_area
 ARCUEIL-CACHAN,,,1,Gare d'Arcueil Cachan,,,,,,,public_transport:stop_area
 LES BACONNETS,,,1,Gare des Baconnets,,,,,,,public_transport:stop_area
-BRY-SUR-MARNE,,,1,Gare de Bry sur Marne ,,,,,,Kraken1 = Fourchette de Bry,public_transport:stop_area
-HOCHE,,,1,Hoche ,,,Pantin,,,Kraken1 = Hoche / Saint-Honoré,public_transport:stop_area
+BRY-SUR-MARNE,,,1,Gare de Bry sur Marne,,,,,,Kraken1 = Fourchette de Bry,public_transport:stop_area
+HOCHE,,,1,Hoche,,,Pantin,,,Kraken1 = Hoche / Saint-Honoré,public_transport:stop_area
 ECOLE MILITAIRE,,,1,École Militaire,,,,,,,public_transport:stop_area
 VILLEJUIF-PAUL VAILLANT-COUTURIER,,,1,Villejuif / Paul Vaillant Couturier / Hôpital Paul Brousse,,,,,,,public_transport:stop_area
-NATIONALE,,,1,Nationale ,,,Paris,,,Kraken1 = Assemblée Nationale,public_transport:stop_area
+NATIONALE,,,1,Nationale,,,Paris,,,Kraken1 = Assemblée Nationale,public_transport:stop_area
