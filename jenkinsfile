@@ -16,7 +16,7 @@ pipeline {
                     virtualenv venv -p python3.9.1
                     . venv/bin/activate
                     pip install -r requirements.txt
-                    py.test --api-url ${params.autocomplete_uri} --junitxml=results.xml --tb short -s geocoder_tester/world/france/
+                    py.test --api-url $bragi --junitxml=results.xml --tb short -s geocoder_tester/world/france/
                 '''
             }
         }
