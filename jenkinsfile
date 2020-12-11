@@ -8,9 +8,6 @@ pipeline {
     }
     stages {
         stage ('Build') {
-            when {
-                branch 'master'
-            }
             steps {
                 sh '''
                     rm -rf venv/
