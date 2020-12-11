@@ -2,7 +2,7 @@
 pipeline {
     agent {
         docker {
-            image 'python:3.4.2'
+            image 'python:3.9.1'
             args '--user root'
         }
     }
@@ -13,7 +13,7 @@ pipeline {
                     rm -rf venv/
                     mkdir venv
                     pip install virtualenv
-                    virtualenv venv -p python3
+                    virtualenv venv -p python3.9.1
                     . venv/bin/activate
                     pip install -r requirements.txt
                     py.test --api-url ${params.autocomplete_uri} --junitxml=results.xml --tb short -s geocoder_tester/world/france/
