@@ -15,7 +15,7 @@ pipeline {
                     virtualenv venv -p python3
                     . venv/bin/activate
                     pip install -r requirements.txt
-                    py.test --api-url $bragi?pt_dataset[]=nl-c --tb short -s geocoder_tester/kisio/stop_areas/netherlands/ --loose-compare --junitxml=results.xml
+                    py.test --api-url $bragi?pt_dataset[]=nl-c --junitxml=results.xml --tb short -s geocoder_tester/world/netherlands/ -s geocoder_tester/kisio/stop_areas/netherlands/ --loose-compare
                 '''
             }
         }
