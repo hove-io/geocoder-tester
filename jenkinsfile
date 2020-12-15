@@ -18,7 +18,7 @@ pipeline {
 		                    virtualenv venv -p python3
 		                    . venv/bin/activate
 		                    pip install -r requirements.txt
-		                    py.test --api-url $bragi --tb short -s geocoder_tester/kisio/france
+		                    py.test --api-url $bragi --tb short -s geocoder_tester/kisio/france --junitxml=results.xml
 		                '''
                     }
                     if (env.DATASET == 'WorldFrance') {
@@ -29,7 +29,7 @@ pipeline {
 		                    virtualenv venv -p python3
 		                    . venv/bin/activate
 		                    pip install -r requirements.txt
-		                    py.test --api-url $bragi --tb short -s geocoder_tester/world/france/
+		                    py.test --api-url $bragi --tb short -s geocoder_tester/world/france/ --junitxml=results.xml
 		                '''
                     }
                     if (env.DATASET == 'KisioStopAreasNetherlands') {
@@ -40,7 +40,7 @@ pipeline {
 		                    virtualenv venv -p python3
 		                    . venv/bin/activate
 		                    pip install -r requirements.txt
-		                    py.test --api-url $bragi?pt_dataset[]=nl-c --tb short -s geocoder_tester/kisio/stop_areas/netherlands/ --loose-compare
+		                    py.test --api-url $bragi?pt_dataset[]=nl-c --tb short -s geocoder_tester/kisio/stop_areas/netherlands/ --loose-compare --junitxml=results.xml
 		                '''
                     }
                     if (env.DATASET == 'KisioStopAreasFranceIledefrance') {
@@ -51,7 +51,7 @@ pipeline {
 		                    virtualenv venv -p python3
 		                    . venv/bin/activate
 		                    pip install -r requirements.txt
-		                    py.test --api-url $bragi?pt_dataset[]=fr-idf --tb short -s geocoder_tester/kisio/stop_areas/france/iledefrance/
+		                    py.test --api-url $bragi?pt_dataset[]=fr-idf --tb short -s geocoder_tester/kisio/stop_areas/france/iledefrance/ --junitxml=results.xml
 		                '''
                     }
                     if (env.DATASET == 'KisioStopAreasFranceNordPasdeCalais') {
@@ -62,7 +62,7 @@ pipeline {
 		                    virtualenv venv -p python3
 		                    . venv/bin/activate
 		                    pip install -r requirements.txt
-		                    py.test --api-url $bragi?pt_dataset[]=fr-npdc --tb short -s geocoder_tester/kisio/stop_areas/france/nordpasdecalais/
+		                    py.test --api-url $bragi?pt_dataset[]=fr-npdc --tb short -s geocoder_tester/kisio/stop_areas/france/nordpasdecalais/ --junitxml=results.xml
 		                '''
                     }
                     if (env.DATASET == 'WorldSwitzerland') {
@@ -73,7 +73,7 @@ pipeline {
 		                    virtualenv venv -p python3
 		                    . venv/bin/activate
 		                    pip install -r requirements.txt
-		                    py.test --api-url $bragi --tb short -s geocoder_tester/world/switzerland/
+		                    py.test --api-url $bragi --tb short -s geocoder_tester/world/switzerland/ --junitxml=results.xml
 		                '''
                     }
                 }
@@ -84,6 +84,8 @@ pipeline {
         failure { echo 'Job failed !' }
         success { echo 'Job is successful !' }
         always {
+            junit(testResults: "results.xml", allowEmptyResults: true)
+            archiveArtifacts artifacts: 'results.xml', fingerprint: true
             cleanWs()
         }
     }
