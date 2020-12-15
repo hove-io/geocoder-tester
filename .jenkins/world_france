@@ -1,0 +1,34 @@
+pipeline {
+    agent {
+        docker {
+            image 'python:3.9.1'
+            args '--user root'
+        }
+    }
+    stages {
+        stage ('Geocoder Tester') {
+            steps {
+                    sh '''
+                        rm -rf venv/
+                        mkdir venv
+                        pip install virtualenv
+                        virtualenv venv -p python3
+                        . venv/bin/activate
+                        pip install -r requirements.txt
+                        py.test --api-url $bragi --tb short -s geocoder_tester/world/france/ --junitxml=results.xml
+                    '''
+                }
+            }
+        }
+    }
+    post {
+        failure { echo 'Job failed !' }
+        success { echo 'Job is successful !' }
+        always {
+            junit(testResults: "results.xml", allowEmptyResults: true)
+            archiveArtifacts artifacts: 'results.xml', fingerprint: true
+            cleanWs()
+        }
+    }
+}
+

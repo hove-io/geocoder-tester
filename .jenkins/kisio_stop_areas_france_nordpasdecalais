@@ -1,0 +1,35 @@
+pipeline {
+    agent {
+        docker {
+            image 'python:3.9.1'
+            args '--user root'
+        }
+    }
+    stages {
+        stage ('Geocoder Tester') {
+            steps {
+                script {
+                    sh '''
+                        rm -rf venv/
+                        mkdir venv
+                        pip install virtualenv
+                        virtualenv venv -p python3
+                        . venv/bin/activate
+                        pip install -r requirements.txt
+                        py.test --api-url $bragi?pt_dataset[]=fr-npdc --tb short -s geocoder_tester/kisio/stop_areas/france/nordpasdecalais/ --junitxml=results.xml
+                    '''
+                }
+            }
+        }
+    }
+    post {
+        failure { echo 'Job failed !' }
+        success { echo 'Job is successful !' }
+        always {
+            junit(testResults: "results.xml", allowEmptyResults: true)
+            archiveArtifacts artifacts: 'results.xml', fingerprint: true
+            cleanWs()
+        }
+    }
+}
+
