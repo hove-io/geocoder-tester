@@ -15,16 +15,16 @@ pipeline {
                     virtualenv venv -p python3
                     . venv/bin/activate
                     pip install -r requirements.txt
-                    py.test --api-url $bragi --tb short -s geocoder_tester/world/france/ --junitxml=results.xml
+                    py.test --api-url $bragi --tb short -s geocoder_tester/world/france/ --junitxml=results.xml || true
                 '''
             }
         }
     }
     post {
-        failure { echo 'Job failed !' }
-        success { echo 'Job is successful !' }
         always {
-            junit(testResults: "results.xml", allowEmptyResults: true)
+            xunit thresholdMode: 2, thresholds: [failed(failureThreshold: '20'), skipped()],
+            tools: [JUnit(deleteOutputFiles: true, failIfNotNew: true, pattern: 'results.xml',
+                    skipNoTestFiles: false, stopProcessingIfError: true)]
             archiveArtifacts artifacts: 'results.xml', fingerprint: true
             cleanWs()
         }

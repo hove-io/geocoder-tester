@@ -21,8 +21,6 @@ pipeline {
         }
     }
     post {
-        failure { echo 'Job failed !' }
-        success { echo 'Job is successful !' }
         always {
             junit(testResults: "results.xml", allowEmptyResults: true)
             archiveArtifacts artifacts: 'results.xml', fingerprint: true
