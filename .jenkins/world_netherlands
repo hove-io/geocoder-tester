@@ -15,14 +15,16 @@ pipeline {
                     virtualenv venv -p python3
                     . venv/bin/activate
                     pip install -r requirements.txt
-                    py.test --api-url $bragi?pt_dataset[]=nl-c --junitxml=results.xml --tb short -s geocoder_tester/world/netherlands/ -s geocoder_tester/kisio/stop_areas/netherlands/ --loose-compare
+                    py.test --api-url $bragi?pt_dataset[]=nl-c --junitxml=results.xml --tb short -s geocoder_tester/world/netherlands/ -s geocoder_tester/kisio/stop_areas/netherlands/ --loose-compare || true
                 '''
             }
         }
     }
     post {
         always {
-            junit(testResults: "results.xml", allowEmptyResults: true)
+            xunit thresholdMode: 2, thresholds: [failed(failureThreshold: '45'), skipped()],
+            tools: [JUnit(deleteOutputFiles: true, failIfNotNew: true, pattern: 'results.xml',
+                    skipNoTestFiles: false, stopProcessingIfError: true)]
             archiveArtifacts artifacts: 'results.xml', fingerprint: true
             cleanWs()
         }
