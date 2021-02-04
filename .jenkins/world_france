@@ -22,7 +22,7 @@ pipeline {
     }
     post {
         always {
-            xunit thresholdMode: 2, thresholds: [failed(failureThreshold: '21'), skipped()],
+            xunit thresholdMode: 2, thresholds: [failed(failureThreshold: '29'), skipped()],
             tools: [JUnit(deleteOutputFiles: true, failIfNotNew: true, pattern: 'results.xml',
                     skipNoTestFiles: false, stopProcessingIfError: true)]
             archiveArtifacts artifacts: 'results.xml', fingerprint: true
