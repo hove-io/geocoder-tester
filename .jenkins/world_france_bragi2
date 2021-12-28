@@ -1,0 +1,34 @@
+pipeline {
+    agent {
+        docker {
+            image 'python:3.9.1'
+            args '--user root'
+        }
+    }
+    stages {
+        stage ('Geocoder Tester') {
+            steps {
+                withCredentials([string(credentialsId: 'bragi2-url-dev', variable: 'URL_BRAGI_DEV')]) {
+                    sh '''
+                        rm -rf venv/
+                        mkdir venv
+                        pip install virtualenv
+                        virtualenv venv -p python3
+                        . venv/bin/activate
+                        pip install -r requirements.txt
+                        py.test --api-url $URL_BRAGI_DEV --tb short -s geocoder_tester/world/france/ --junitxml=results.xml || true
+                    '''
+                }
+            }
+        }
+    }
+    post {
+        always {
+            xunit thresholdMode: 2, thresholds: [failed(failureThreshold: '29'), skipped()],
+            tools: [JUnit(deleteOutputFiles: true, failIfNotNew: true, pattern: 'results.xml',
+                    skipNoTestFiles: false, stopProcessingIfError: true)]
+            archiveArtifacts artifacts: 'results.xml', fingerprint: true
+            cleanWs()
+        }
+    }
+}
